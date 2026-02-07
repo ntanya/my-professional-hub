@@ -109,10 +109,7 @@ const Resume = () => {
                   <div className="space-y-8">
                     {education.map((edu, index) => (
                       <div key={index} className="p-8 border border-border">
-                        <span className="font-body text-xs uppercase tracking-[0.15em] text-muted-foreground">
-                          {edu.period}
-                        </span>
-                        <h3 className="font-display text-xl italic text-foreground mt-2">{edu.degree}</h3>
+                        <h3 className="font-display text-xl italic text-foreground">{edu.degree}</h3>
                         <p className="font-body text-sm text-muted-foreground mt-1">{edu.school}</p>
                         <p className="font-body text-xs text-muted-foreground mt-3 uppercase tracking-[0.1em]">
                           Focus: {edu.focus}
