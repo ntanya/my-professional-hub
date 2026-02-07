@@ -7,10 +7,10 @@ const Articles = () => {
   const articles = getArticles();
 
   const formatDate = (dateStr: string) => {
-    return new Date(dateStr).toLocaleDateString('en-US', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric'
+    return new Date(dateStr).toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
     });
   };
 
@@ -21,10 +21,8 @@ const Articles = () => {
           <div className="max-w-3xl mx-auto">
             {/* Section Header */}
             <div className="text-center mb-20">
-              <p className="font-body text-xs uppercase tracking-[0.3em] text-muted-foreground mb-6">
-                Journal
-              </p>
-              <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-normal italic text-foreground mb-8">
+              <p className="font-body text-xs uppercase tracking-[0.3em] text-muted-foreground mb-6">Journal</p>
+              <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-normal text-foreground mb-8">
                 Articles & Insights
               </h1>
               <p className="font-body text-base text-muted-foreground max-w-xl mx-auto mb-8">
@@ -37,19 +35,13 @@ const Articles = () => {
             {articles.length > 0 ? (
               <div className="space-y-0 divide-y divide-border">
                 {articles.map((article) => (
-                  <Link
-                    key={article.slug}
-                    to={`/articles/${article.slug}`}
-                    className="group block py-10 first:pt-0"
-                  >
+                  <Link key={article.slug} to={`/articles/${article.slug}`} className="group block py-10 first:pt-0">
                     <div className="flex items-center gap-4 mb-4">
                       <span className="font-body text-xs uppercase tracking-[0.2em] text-muted-foreground">
                         {article.category}
                       </span>
                       {article.featured && (
-                        <span className="font-body text-xs uppercase tracking-[0.2em] text-foreground">
-                          · Featured
-                        </span>
+                        <span className="font-body text-xs uppercase tracking-[0.2em] text-foreground">· Featured</span>
                       )}
                     </div>
 
@@ -83,11 +75,10 @@ const Articles = () => {
               </div>
             ) : (
               <div className="text-center py-20 border border-border">
-                <p className="font-body text-base text-muted-foreground mb-4">
-                  No articles yet.
-                </p>
+                <p className="font-body text-base text-muted-foreground mb-4">No articles yet.</p>
                 <p className="font-body text-sm text-muted-foreground">
-                  Upload markdown files to <code className="bg-secondary px-2 py-1 text-xs">src/articles/</code> to add articles.
+                  Upload markdown files to <code className="bg-secondary px-2 py-1 text-xs">src/articles/</code> to add
+                  articles.
                 </p>
               </div>
             )}

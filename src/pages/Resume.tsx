@@ -4,51 +4,50 @@ import Layout from "@/components/Layout";
 const Resume = () => {
   const experience = [
     {
-      title: "Senior Product Designer",
-      company: "Tech Innovations Inc.",
-      period: "2021 - Present",
-      description: "Leading design for flagship products, managing a team of 4 designers, and establishing design systems.",
+      title: "Principal Solutions Consultant, Strategic",
+      company: "Ramp",
+      period: "Feb 2026 - Present",
+      description: "Technical leadership for the revenue team for Ramp's core products.",
     },
     {
-      title: "Product Designer",
-      company: "Creative Agency Co.",
-      period: "2018 - 2021",
-      description: "Delivered end-to-end design solutions for clients across fintech, healthcare, and e-commerce.",
+      title: "Lead Solutions Engineer, Enterprise",
+      company: "Shopify",
+      period: "Sep 2021 - Feb 2026",
+      description:
+        "Strategic and technical expertise across all Shopify's products (online/DTC, retail, B2B, commerce components). Highest all-time revenue contributor globally. Speaker at NRF, the Lead Conference, Shoptalk. President's Club winner.",
     },
     {
-      title: "UI/UX Designer",
-      company: "Startup Studios",
-      period: "2016 - 2018",
-      description: "Designed mobile and web applications for early-stage startups, from concept to launch.",
+      title: "Senior Solutions Consultant",
+      company: "Botify",
+      period: "Feb 2020 - Aug 2021",
+      description:
+        "Technical expert for enterprise SEO. Quarterly award winner. Speaker on technical SEO & Javascript optimization.",
     },
   ];
 
   const education = [
     {
-      degree: "Master of Design",
-      school: "Rhode Island School of Design",
-      period: "2014 - 2016",
-      focus: "Human-Computer Interaction",
+      degree: "Bachelor of Science",
+      school: "St. Petersburg State Polytechnic University, St. Petersburg, Russia",
+      focus: "Computer Science",
     },
     {
-      degree: "Bachelor of Arts",
-      school: "University of California",
-      period: "2010 - 2014",
-      focus: "Visual Communication",
+      degree: "MongoDB for DBAs",
+      school: "MongoDB Unversity",
+      focus: "NoSQL database administration",
     },
   ];
 
   const skills = [
-    "Product Strategy",
-    "User Research",
-    "Wireframing",
-    "Prototyping",
-    "Design Systems",
-    "Figma",
-    "Framer",
-    "HTML/CSS",
-    "React Basics",
-    "Usability Testing",
+    "Presales",
+    "Technical sales",
+    "Ecommerce / ERP / OMS integrations",
+    "APIs",
+    "System design",
+    "Business communication",
+    "Public speaking",
+    "C-Suite stakeholder management",
+    "SEO",
   ];
 
   return (
@@ -58,14 +57,12 @@ const Resume = () => {
           <div className="max-w-5xl mx-auto">
             {/* Section Header */}
             <div className="text-center mb-20">
-              <p className="font-body text-xs uppercase tracking-[0.3em] text-muted-foreground mb-6">
-                Curriculum Vitae
-              </p>
-              <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-normal italic text-foreground mb-8">
+              <p className="font-body text-xs uppercase tracking-[0.3em] text-muted-foreground mb-6">Career Path</p>
+              <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-normal text-foreground mb-8">
                 Experience & Education
               </h1>
               <div className="w-12 h-px bg-foreground/30 mx-auto mb-10" />
-              
+
               {/* Download Button */}
               <button className="inline-flex items-center gap-3 font-body text-xs uppercase tracking-[0.2em] bg-foreground text-background px-8 py-4 hover:opacity-90 transition-all duration-300">
                 <Download size={14} />
@@ -90,15 +87,9 @@ const Resume = () => {
                       <span className="font-body text-xs uppercase tracking-[0.15em] text-muted-foreground">
                         {job.period}
                       </span>
-                      <h3 className="font-display text-xl italic text-foreground mt-2">
-                        {job.title}
-                      </h3>
-                      <p className="font-body text-sm text-muted-foreground mt-1">
-                        {job.company}
-                      </p>
-                      <p className="font-body text-sm text-muted-foreground mt-4 leading-relaxed">
-                        {job.description}
-                      </p>
+                      <h3 className="font-display text-xl italic text-foreground mt-2">{job.title}</h3>
+                      <p className="font-body text-sm text-muted-foreground mt-1">{job.company}</p>
+                      <p className="font-body text-sm text-muted-foreground mt-4 leading-relaxed">{job.description}</p>
                     </div>
                   ))}
                 </div>
@@ -121,12 +112,8 @@ const Resume = () => {
                         <span className="font-body text-xs uppercase tracking-[0.15em] text-muted-foreground">
                           {edu.period}
                         </span>
-                        <h3 className="font-display text-xl italic text-foreground mt-2">
-                          {edu.degree}
-                        </h3>
-                        <p className="font-body text-sm text-muted-foreground mt-1">
-                          {edu.school}
-                        </p>
+                        <h3 className="font-display text-xl italic text-foreground mt-2">{edu.degree}</h3>
+                        <p className="font-body text-sm text-muted-foreground mt-1">{edu.school}</p>
                         <p className="font-body text-xs text-muted-foreground mt-3 uppercase tracking-[0.1em]">
                           Focus: {edu.focus}
                         </p>
