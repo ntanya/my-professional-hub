@@ -42,14 +42,14 @@ const Index = () => {
             >
               <Link
                 to="/about"
-                className="inline-flex items-center gap-3 font-body text-xs uppercase tracking-[0.2em] px-8 py-4 bg-foreground text-background hover:opacity-90 transition-all duration-300"
+                className="inline-flex items-center gap-3 font-body text-xs uppercase tracking-[0.2em] px-8 py-4 bg-foreground text-background hover:bg-accent-secondary transition-all duration-300"
               >
                 About Me
                 <ArrowRight size={14} />
               </Link>
               <Link
                 to="/work"
-                className="inline-flex items-center gap-3 font-body text-xs uppercase tracking-[0.2em] px-8 py-4 border border-foreground text-foreground hover:bg-foreground hover:text-background transition-all duration-300"
+                className="inline-flex items-center gap-3 font-body text-xs uppercase tracking-[0.2em] px-8 py-4 border border-foreground text-foreground hover:bg-accent-secondary hover:text-accent-secondary-foreground hover:border-accent-secondary transition-all duration-300"
               >
                 View Work
               </Link>
