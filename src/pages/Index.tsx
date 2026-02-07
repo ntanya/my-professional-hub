@@ -19,18 +19,27 @@ const Index = () => {
             </h1>
 
             {/* Title */}
-            <p className="font-display text-2xl md:text-3xl text-foreground mb-6 animate-slide-up italic" style={{ animationDelay: "0.1s" }}>
+            <h2
+              className="font-display text-2xl md:text-3xl text-foreground mb-6 animate-slide-up italic"
+              style={{ animationDelay: "0.1s" }}
+            >
               Product Designer & Creative Strategist
-            </p>
+            </h2>
 
             {/* Tagline */}
-            <p className="font-body text-base text-muted-foreground max-w-xl mx-auto mb-14 animate-slide-up text-balance leading-relaxed" style={{ animationDelay: "0.2s" }}>
-              Crafting digital experiences that connect people with purpose. 
-              Blending strategy, design, and technology to solve complex problems beautifully.
+            <p
+              className="font-body text-base text-muted-foreground max-w-xl mx-auto mb-14 animate-slide-up text-balance leading-relaxed"
+              style={{ animationDelay: "0.2s" }}
+            >
+              Crafting digital experiences that connect people with purpose. Blending strategy, design, and technology
+              to solve complex problems beautifully.
             </p>
 
             {/* CTAs */}
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-6 animate-slide-up" style={{ animationDelay: "0.3s" }}>
+            <div
+              className="flex flex-col sm:flex-row items-center justify-center gap-6 animate-slide-up"
+              style={{ animationDelay: "0.3s" }}
+            >
               <Link
                 to="/about"
                 className="inline-flex items-center gap-3 font-body text-xs uppercase tracking-[0.2em] px-8 py-4 bg-foreground text-background hover:opacity-90 transition-all duration-300"
