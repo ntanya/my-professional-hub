@@ -1,9 +1,11 @@
+import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -14,16 +16,13 @@ const Navigation = () => {
   }, []);
 
   const navLinks = [
-    { href: "#about", label: "About" },
-    { href: "#work", label: "Work" },
-    { href: "#resume", label: "Resume" },
+    { href: "/about", label: "About" },
+    { href: "/work", label: "Work" },
+    { href: "/articles", label: "Articles" },
+    { href: "/resume", label: "Resume" },
   ];
 
-  const handleNavClick = (href: string) => {
-    setIsMobileMenuOpen(false);
-    const element = document.querySelector(href);
-    element?.scrollIntoView({ behavior: "smooth" });
-  };
+  const isActive = (path: string) => location.pathname === path;
 
   return (
     <nav
@@ -36,25 +35,28 @@ const Navigation = () => {
       <div className="container mx-auto px-6 lg:px-12">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <a
-            href="#"
-            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          <Link
+            to="/"
             className="font-display text-2xl font-semibold text-foreground hover:text-accent transition-colors duration-300"
           >
             JD
-          </a>
+          </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-10">
             {navLinks.map((link) => (
-              <button
+              <Link
                 key={link.href}
-                onClick={() => handleNavClick(link.href)}
-                className="font-body text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-300 relative group"
+                to={link.href}
+                className={`font-body text-sm font-medium transition-colors duration-300 relative group ${
+                  isActive(link.href) ? "text-foreground" : "text-muted-foreground hover:text-foreground"
+                }`}
               >
                 {link.label}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full" />
-              </button>
+                <span className={`absolute -bottom-1 left-0 h-0.5 bg-accent transition-all duration-300 ${
+                  isActive(link.href) ? "w-full" : "w-0 group-hover:w-full"
+                }`} />
+              </Link>
             ))}
           </div>
 
@@ -73,13 +75,16 @@ const Navigation = () => {
           <div className="md:hidden absolute top-20 left-0 right-0 bg-background/95 backdrop-blur-md border-b border-border animate-slide-up">
             <div className="container mx-auto px-6 py-6 flex flex-col gap-4">
               {navLinks.map((link) => (
-                <button
+                <Link
                   key={link.href}
-                  onClick={() => handleNavClick(link.href)}
-                  className="font-body text-lg font-medium text-muted-foreground hover:text-foreground transition-colors duration-300 text-left py-2"
+                  to={link.href}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className={`font-body text-lg font-medium transition-colors duration-300 text-left py-2 ${
+                    isActive(link.href) ? "text-accent" : "text-muted-foreground hover:text-foreground"
+                  }`}
                 >
                   {link.label}
-                </button>
+                </Link>
               ))}
             </div>
           </div>

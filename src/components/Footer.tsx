@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin, Linkedin, Twitter, Github, Dribbble } from "lucide-react";
 
 const Footer = () => {
@@ -12,6 +13,13 @@ const Footer = () => {
     { icon: Mail, text: "hello@johndoe.com", href: "mailto:hello@johndoe.com" },
     { icon: Phone, text: "+1 (555) 123-4567", href: "tel:+15551234567" },
     { icon: MapPin, text: "San Francisco, CA", href: "#" },
+  ];
+
+  const navLinks = [
+    { href: "/about", label: "About" },
+    { href: "/work", label: "Work" },
+    { href: "/articles", label: "Articles" },
+    { href: "/resume", label: "Resume" },
   ];
 
   return (
@@ -45,18 +53,14 @@ const Footer = () => {
             <div>
               <h4 className="font-display text-lg font-semibold mb-6">Quick Links</h4>
               <nav className="space-y-3">
-                {["About", "Work", "Resume"].map((link) => (
-                  <a
-                    key={link}
-                    href={`#${link.toLowerCase()}`}
-                    onClick={(e) => {
-                      e.preventDefault();
-                      document.querySelector(`#${link.toLowerCase()}`)?.scrollIntoView({ behavior: "smooth" });
-                    }}
+                {navLinks.map((link) => (
+                  <Link
+                    key={link.label}
+                    to={link.href}
                     className="block font-body text-background/70 hover:text-accent transition-colors duration-300"
                   >
-                    {link}
-                  </a>
+                    {link.label}
+                  </Link>
                 ))}
               </nav>
             </div>
