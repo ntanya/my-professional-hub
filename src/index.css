@@ -31,6 +31,9 @@
     --accent: 30 10% 20%;
     --accent-foreground: 40 30% 97%;
 
+    --accent-secondary: 349 38% 46%;
+    --accent-secondary-foreground: 40 30% 97%;
+
     --destructive: 0 72% 50%;
     --destructive-foreground: 0 85% 97%;
 
@@ -99,6 +102,9 @@
     --accent: 40 15% 80%;
     --accent-foreground: 30 10% 8%;
 
+    --accent-secondary: 349 45% 55%;
+    --accent-secondary-foreground: 40 30% 97%;
+
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 85% 97%;
 
@@ -143,8 +149,13 @@
     font-family: var(--font-body);
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1, h3, h4, h5, h6 {
     font-family: var(--font-display);
+  }
+
+  h2 {
+    font-family: var(--font-display);
+    color: hsl(var(--accent-secondary));
   }
 }
 
