@@ -23,14 +23,14 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-foreground text-background py-16 lg:py-20">
+    <footer className="bg-foreground text-background py-20 lg:py-24">
       <div className="container mx-auto px-6 lg:px-12">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 mb-12">
+        <div className="max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-16 mb-16">
             {/* Brand & Tagline */}
             <div className="lg:col-span-1">
-              <h3 className="font-display text-3xl font-semibold mb-4">John Doe</h3>
-              <p className="font-body text-background/70 leading-relaxed mb-6">
+              <h3 className="font-display text-3xl italic mb-6">John Doe</h3>
+              <p className="font-body text-sm text-background/60 leading-relaxed mb-8">
                 Creating meaningful digital experiences that connect people and drive results.
               </p>
               
@@ -41,9 +41,9 @@ const Footer = () => {
                     key={index}
                     href={social.href}
                     aria-label={social.label}
-                    className="w-10 h-10 bg-background/10 rounded-full flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-all duration-300"
+                    className="w-10 h-10 border border-background/20 flex items-center justify-center hover:bg-background hover:text-foreground transition-all duration-300"
                   >
-                    <social.icon className="w-5 h-5" />
+                    <social.icon className="w-4 h-4" />
                   </a>
                 ))}
               </div>
@@ -51,13 +51,13 @@ const Footer = () => {
 
             {/* Quick Links */}
             <div>
-              <h4 className="font-display text-lg font-semibold mb-6">Quick Links</h4>
-              <nav className="space-y-3">
+              <h4 className="font-body text-xs uppercase tracking-[0.2em] mb-8">Navigation</h4>
+              <nav className="space-y-4">
                 {navLinks.map((link) => (
                   <Link
                     key={link.label}
                     to={link.href}
-                    className="block font-body text-background/70 hover:text-accent transition-colors duration-300"
+                    className="block font-body text-sm text-background/60 hover:text-background transition-colors duration-300"
                   >
                     {link.label}
                   </Link>
@@ -67,15 +67,15 @@ const Footer = () => {
 
             {/* Contact Info */}
             <div>
-              <h4 className="font-display text-lg font-semibold mb-6">Get in Touch</h4>
+              <h4 className="font-body text-xs uppercase tracking-[0.2em] mb-8">Contact</h4>
               <div className="space-y-4">
                 {contactInfo.map((contact, index) => (
                   <a
                     key={index}
                     href={contact.href}
-                    className="flex items-center gap-3 font-body text-background/70 hover:text-accent transition-colors duration-300"
+                    className="flex items-center gap-3 font-body text-sm text-background/60 hover:text-background transition-colors duration-300"
                   >
-                    <contact.icon className="w-5 h-5 text-accent" />
+                    <contact.icon className="w-4 h-4" />
                     <span>{contact.text}</span>
                   </a>
                 ))}
@@ -86,11 +86,11 @@ const Footer = () => {
           {/* Bottom Bar */}
           <div className="pt-8 border-t border-background/10">
             <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-              <p className="font-body text-sm text-background/50">
+              <p className="font-body text-xs text-background/40 tracking-wide">
                 © {new Date().getFullYear()} John Doe. All rights reserved.
               </p>
-              <p className="font-body text-sm text-background/50">
-                Designed & Built with ♥
+              <p className="font-body text-xs text-background/40 tracking-wide">
+                Designed & Built with care
               </p>
             </div>
           </div>

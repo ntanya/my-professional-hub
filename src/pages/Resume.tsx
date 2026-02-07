@@ -55,48 +55,48 @@ const Resume = () => {
     <Layout>
       <section className="pt-32 pb-24 lg:pb-32 bg-background">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-5xl mx-auto">
             {/* Section Header */}
-            <div className="text-center mb-16">
-              <p className="font-body text-sm uppercase tracking-[0.25em] text-accent font-medium mb-4">
-                Resume
+            <div className="text-center mb-20">
+              <p className="font-body text-xs uppercase tracking-[0.3em] text-muted-foreground mb-6">
+                Curriculum Vitae
               </p>
-              <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground mb-6">
+              <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-normal italic text-foreground mb-8">
                 Experience & Education
               </h1>
-              <div className="w-16 h-1 bg-accent mx-auto rounded-full mb-8" />
+              <div className="w-12 h-px bg-foreground/30 mx-auto mb-10" />
               
               {/* Download Button */}
-              <button className="inline-flex items-center gap-2 font-body text-sm font-medium bg-accent text-accent-foreground px-6 py-3 rounded-full hover:shadow-accent hover:scale-105 transition-all duration-300">
-                <Download size={16} />
-                Download Full Resume
+              <button className="inline-flex items-center gap-3 font-body text-xs uppercase tracking-[0.2em] bg-foreground text-background px-8 py-4 hover:opacity-90 transition-all duration-300">
+                <Download size={14} />
+                Download Resume
               </button>
             </div>
 
-            <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
+            <div className="grid lg:grid-cols-2 gap-16 lg:gap-20">
               {/* Experience */}
               <div>
-                <div className="flex items-center gap-3 mb-8">
-                  <div className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center">
-                    <Briefcase className="w-5 h-5 text-accent" />
+                <div className="flex items-center gap-4 mb-10">
+                  <div className="w-10 h-10 border border-border flex items-center justify-center">
+                    <Briefcase className="w-4 h-4 text-foreground" />
                   </div>
-                  <h2 className="font-display text-2xl font-semibold text-foreground">Experience</h2>
+                  <h2 className="font-display text-2xl italic text-foreground">Experience</h2>
                 </div>
 
-                <div className="space-y-8">
+                <div className="space-y-10">
                   {experience.map((job, index) => (
-                    <div key={index} className="relative pl-6 border-l-2 border-border hover:border-accent transition-colors duration-300">
-                      <div className="absolute -left-[9px] top-0 w-4 h-4 bg-background border-2 border-accent rounded-full" />
-                      <span className="font-body text-xs uppercase tracking-widest text-accent font-medium">
+                    <div key={index} className="relative pl-8 border-l border-border">
+                      <div className="absolute -left-[5px] top-1 w-2.5 h-2.5 bg-foreground rounded-full" />
+                      <span className="font-body text-xs uppercase tracking-[0.15em] text-muted-foreground">
                         {job.period}
                       </span>
-                      <h3 className="font-display text-xl font-semibold text-foreground mt-1">
+                      <h3 className="font-display text-xl italic text-foreground mt-2">
                         {job.title}
                       </h3>
-                      <p className="font-body text-muted-foreground font-medium mt-1">
+                      <p className="font-body text-sm text-muted-foreground mt-1">
                         {job.company}
                       </p>
-                      <p className="font-body text-muted-foreground mt-3 leading-relaxed">
+                      <p className="font-body text-sm text-muted-foreground mt-4 leading-relaxed">
                         {job.description}
                       </p>
                     </div>
@@ -107,27 +107,27 @@ const Resume = () => {
               {/* Education & Skills */}
               <div>
                 {/* Education */}
-                <div className="mb-12">
-                  <div className="flex items-center gap-3 mb-8">
-                    <div className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center">
-                      <GraduationCap className="w-5 h-5 text-accent" />
+                <div className="mb-16">
+                  <div className="flex items-center gap-4 mb-10">
+                    <div className="w-10 h-10 border border-border flex items-center justify-center">
+                      <GraduationCap className="w-4 h-4 text-foreground" />
                     </div>
-                    <h2 className="font-display text-2xl font-semibold text-foreground">Education</h2>
+                    <h2 className="font-display text-2xl italic text-foreground">Education</h2>
                   </div>
 
-                  <div className="space-y-6">
+                  <div className="space-y-8">
                     {education.map((edu, index) => (
-                      <div key={index} className="p-6 bg-card rounded-xl shadow-soft">
-                        <span className="font-body text-xs uppercase tracking-widest text-accent font-medium">
+                      <div key={index} className="p-8 border border-border">
+                        <span className="font-body text-xs uppercase tracking-[0.15em] text-muted-foreground">
                           {edu.period}
                         </span>
-                        <h3 className="font-display text-xl font-semibold text-foreground mt-1">
+                        <h3 className="font-display text-xl italic text-foreground mt-2">
                           {edu.degree}
                         </h3>
-                        <p className="font-body text-muted-foreground font-medium mt-1">
+                        <p className="font-body text-sm text-muted-foreground mt-1">
                           {edu.school}
                         </p>
-                        <p className="font-body text-sm text-muted-foreground mt-2">
+                        <p className="font-body text-xs text-muted-foreground mt-3 uppercase tracking-[0.1em]">
                           Focus: {edu.focus}
                         </p>
                       </div>
@@ -137,12 +137,12 @@ const Resume = () => {
 
                 {/* Skills */}
                 <div>
-                  <h2 className="font-display text-2xl font-semibold text-foreground mb-6">Skills</h2>
+                  <h2 className="font-display text-2xl italic text-foreground mb-8">Skills</h2>
                   <div className="flex flex-wrap gap-3">
                     {skills.map((skill, index) => (
                       <span
                         key={index}
-                        className="font-body text-sm px-4 py-2 bg-secondary text-secondary-foreground rounded-full hover:bg-accent hover:text-accent-foreground transition-colors duration-300 cursor-default"
+                        className="font-body text-xs px-4 py-2 border border-border text-muted-foreground hover:border-foreground hover:text-foreground transition-colors duration-300 cursor-default"
                       >
                         {skill}
                       </span>
