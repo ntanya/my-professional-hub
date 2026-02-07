@@ -18,76 +18,76 @@ const Articles = () => {
     <Layout>
       <section className="pt-32 pb-24 lg:pb-32 bg-background">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-3xl mx-auto">
             {/* Section Header */}
-            <div className="text-center mb-16">
-              <p className="font-body text-sm uppercase tracking-[0.25em] text-accent font-medium mb-4">
-                Blog
+            <div className="text-center mb-20">
+              <p className="font-body text-xs uppercase tracking-[0.3em] text-muted-foreground mb-6">
+                Journal
               </p>
-              <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground mb-6">
+              <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-normal italic text-foreground mb-8">
                 Articles & Insights
               </h1>
-              <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
+              <p className="font-body text-base text-muted-foreground max-w-xl mx-auto mb-8">
                 Thoughts on design, strategy, and the creative process. Sharing what I've learned along the way.
               </p>
-              <div className="w-16 h-1 bg-accent mx-auto rounded-full mt-6" />
+              <div className="w-12 h-px bg-foreground/30 mx-auto" />
             </div>
 
             {/* Articles List */}
             {articles.length > 0 ? (
-              <div className="space-y-8">
+              <div className="space-y-0 divide-y divide-border">
                 {articles.map((article) => (
                   <Link
                     key={article.slug}
                     to={`/articles/${article.slug}`}
-                    className="group block bg-card rounded-2xl p-8 shadow-soft hover:shadow-card transition-all duration-300 hover:-translate-y-1"
+                    className="group block py-10 first:pt-0"
                   >
                     <div className="flex items-center gap-4 mb-4">
-                      <span className="font-body text-xs uppercase tracking-widest text-accent font-medium px-3 py-1 bg-accent/10 rounded-full">
+                      <span className="font-body text-xs uppercase tracking-[0.2em] text-muted-foreground">
                         {article.category}
                       </span>
                       {article.featured && (
-                        <span className="font-body text-xs uppercase tracking-widest text-foreground font-medium px-3 py-1 bg-foreground/10 rounded-full">
-                          Featured
+                        <span className="font-body text-xs uppercase tracking-[0.2em] text-foreground">
+                          · Featured
                         </span>
                       )}
                     </div>
 
-                    <h2 className="font-display text-2xl font-semibold text-foreground mb-3 group-hover:text-accent transition-colors duration-300">
+                    <h2 className="font-display text-2xl md:text-3xl italic text-foreground mb-4 group-hover:opacity-70 transition-opacity duration-300">
                       {article.title}
                     </h2>
 
-                    <p className="font-body text-muted-foreground leading-relaxed mb-4">
+                    <p className="font-body text-sm text-muted-foreground leading-relaxed mb-5">
                       {article.description}
                     </p>
 
                     <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-4 text-sm text-muted-foreground">
-                        <span className="flex items-center gap-1">
-                          <Calendar size={14} />
+                      <div className="flex items-center gap-4 text-xs text-muted-foreground">
+                        <span className="flex items-center gap-1.5">
+                          <Calendar size={12} />
                           {formatDate(article.date)}
                         </span>
-                        <span className="flex items-center gap-1">
-                          <Clock size={14} />
+                        <span className="flex items-center gap-1.5">
+                          <Clock size={12} />
                           {article.readTime}
                         </span>
                       </div>
 
-                      <span className="flex items-center gap-1 text-sm font-medium text-accent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        Read More
-                        <ArrowRight size={14} />
+                      <span className="flex items-center gap-1.5 text-xs uppercase tracking-[0.15em] text-foreground opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        Read
+                        <ArrowRight size={12} />
                       </span>
                     </div>
                   </Link>
                 ))}
               </div>
             ) : (
-              <div className="text-center py-16 bg-card rounded-2xl shadow-soft">
-                <p className="font-body text-lg text-muted-foreground mb-4">
+              <div className="text-center py-20 border border-border">
+                <p className="font-body text-base text-muted-foreground mb-4">
                   No articles yet.
                 </p>
-                <p className="font-body text-muted-foreground">
-                  Upload markdown files to <code className="bg-secondary px-2 py-1 rounded text-sm">src/articles/</code> to add articles.
+                <p className="font-body text-sm text-muted-foreground">
+                  Upload markdown files to <code className="bg-secondary px-2 py-1 text-xs">src/articles/</code> to add articles.
                 </p>
               </div>
             )}
