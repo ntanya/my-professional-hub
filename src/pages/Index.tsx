@@ -14,7 +14,7 @@ const Index = () => {
             </p>
 
             {/* Name */}
-            <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-normal italic text-foreground mb-8 animate-slide-up leading-tight">
+            <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-normal text-foreground mb-8 animate-slide-up leading-tight">
               John Doe
             </h1>
 
