@@ -10,12 +10,12 @@ const Index = () => {
           <div className="max-w-3xl mx-auto text-center">
             {/* Greeting */}
             <p className="font-body text-xs uppercase tracking-[0.3em] text-muted-foreground mb-8 animate-fade-in">
-              Portfolio
+              Hello, I'm
             </p>
 
             {/* Name */}
             <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-normal text-foreground mb-8 animate-slide-up leading-tight">
-              John Doe
+              Jane Doe
             </h1>
 
             {/* Title */}
@@ -23,7 +23,7 @@ const Index = () => {
               className="font-display text-2xl md:text-3xl text-foreground mb-6 animate-slide-up italic"
               style={{ animationDelay: "0.1s" }}
             >
-              Product Designer & Creative Strategist
+              Solutions Engineer & Strategic Thinker
             </h2>
 
             {/* Tagline */}
@@ -31,8 +31,8 @@ const Index = () => {
               className="font-body text-base text-muted-foreground max-w-xl mx-auto mb-14 animate-slide-up text-balance leading-relaxed"
               style={{ animationDelay: "0.2s" }}
             >
-              Crafting digital experiences that connect people with purpose. Blending strategy, design, and technology
-              to solve complex problems beautifully.
+              Technical mind + friendly, clear communicator. Connecting world-class products with companies who deserve
+              to thrive.
             </p>
 
             {/* CTAs */}
