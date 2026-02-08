@@ -45,12 +45,12 @@ const About = () => {
                 Now (and probably forever), I call New York my home.
                 </p>
                 <p className="font-body text-base text-muted-foreground leading-relaxed">
-                  I’ve built my career as a series of venn diagrams of disciplines and domains: 
-software engineering > technical management > solutions engineering
-SEO  > commerce > finance
+                  I've built my career as a series of venn diagrams of disciplines and domains: 
+                  software engineering → technical management → solutions engineering, 
+                  SEO → commerce → finance.
                 </p>
                 <p className="font-body text-base text-muted-foreground leading-relaxed">
-                  Then I found my “true north” in Solutions Engineering: using the power of technology and communication for bringing customers from outdated systems into better, smarter, happier state of growth.
+                  Then I found my "true north" in Solutions Engineering: using the power of technology and communication for bringing customers from outdated systems into better, smarter, happier state of growth.
                 </p>
                 <p className="font-body text-base text-muted-foreground leading-relaxed">
                 I respect companies (Ramp, Shopify, Stripe) led by founders who challenge status quo, build with taste and urgency, and generate enormous value for their users.
