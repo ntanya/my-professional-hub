@@ -1,5 +1,6 @@
 import { Sparkles, Target, Users } from "lucide-react";
 import Layout from "@/components/Layout";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const About = () => {
   const values = [
@@ -18,6 +19,45 @@ const About = () => {
       icon: Users,
       title: "Integrity and kindness",
       description: "Everyone is human. Don't be an asshole.",
+    },
+  ];
+
+  const books = [
+    {
+      title: "The Almanack of Naval Ravikant",
+      author: "Eric Jorgenson",
+      cover: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1598011736i/54898389.jpg",
+      recommendation: "A guide to wealth and happiness from one of Silicon Valley's most respected thinkers. Naval's wisdom on leverage, judgment, and specific knowledge has shaped how I approach my career.",
+    },
+    {
+      title: "The Anthology of Balaji",
+      author: "Eric Jorgenson",
+      cover: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1712019513i/210088838.jpg",
+      recommendation: "Balaji's frameworks on technology, startups, and the future of society. Essential reading for understanding where the world is headed.",
+    },
+    {
+      title: "Storyworthy",
+      author: "Matthew Dicks",
+      cover: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1522562750i/37786022.jpg",
+      recommendation: "The art of finding and telling compelling stories. Changed how I communicate in presentations and everyday conversations.",
+    },
+    {
+      title: "Never Split the Difference",
+      author: "Chris Voss",
+      cover: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1460910517i/26156469.jpg",
+      recommendation: "Negotiation tactics from an FBI hostage negotiator. Practical techniques I use in every sales conversation and stakeholder discussion.",
+    },
+    {
+      title: "The Art of Spending Money",
+      author: "Morgan Housel",
+      cover: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1727738986i/217635401.jpg",
+      recommendation: "Morgan Housel's insights on the psychology of money and spending decisions. A thoughtful guide to aligning your spending with your values.",
+    },
+    {
+      title: "Unreasonable Hospitality",
+      author: "Will Guidara",
+      cover: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1660669492i/61539635.jpg",
+      recommendation: "The power of going above and beyond for customers. Will's philosophy on hospitality applies far beyond restaurants—it's about making people feel seen.",
     },
   ];
 
@@ -86,7 +126,7 @@ const About = () => {
             </div>
 
             {/* Values */}
-            <div>
+            <div className="mb-24">
               <p className="font-body text-xs uppercase tracking-[0.3em] text-muted-foreground mb-10 text-center">
                 Core Values
               </p>
@@ -98,6 +138,35 @@ const About = () => {
                     </div>
                     <h3 className="font-display text-xl italic text-foreground mb-4">{value.title}</h3>
                     <p className="font-body text-sm text-muted-foreground leading-relaxed">{value.description}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* On My Bookshelf */}
+            <div>
+              <p className="font-body text-xs uppercase tracking-[0.3em] text-muted-foreground mb-10 text-center">
+                On My Bookshelf
+              </p>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {books.map((book, index) => (
+                  <div key={index} className="group">
+                    <div className="border border-border p-4 mb-4 bg-muted/20">
+                      <AspectRatio ratio={2/3}>
+                        <img
+                          src={book.cover}
+                          alt={`${book.title} by ${book.author}`}
+                          className="w-full h-full object-cover"
+                        />
+                      </AspectRatio>
+                    </div>
+                    <h3 className="font-display text-lg italic text-foreground mb-1">{book.title}</h3>
+                    <p className="font-body text-xs uppercase tracking-[0.15em] text-muted-foreground mb-3">
+                      {book.author}
+                    </p>
+                    <p className="font-body text-sm text-muted-foreground leading-relaxed">
+                      {book.recommendation}
+                    </p>
                   </div>
                 ))}
               </div>
