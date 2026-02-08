@@ -7,13 +7,12 @@ const About = () => {
     {
       icon: Sparkles,
       title: "High agency, bias for action.",
-      description:
-        "High agency, bias for action",
+      description: "Question the question. Everything is figure-outable.",
     },
     {
       icon: Target,
       title: "Brevity and clarity in communication",
-      description: "",
+      description: "Simplicity is the ultimate luxury.",
     },
     {
       icon: Users,
@@ -26,7 +25,8 @@ const About = () => {
     {
       name: "Shymkent, Kazakhstan",
       image: "https://images.unsplash.com/photo-1530841377377-3ff06c0ca713?w=800",
-      description: "My hometown at the foot of the Tian-Shan mountains. A city of hustlers, hospitality, and home-cooked plov.",
+      description:
+        "My hometown at the foot of the Tian-Shan mountains. A city of hustlers, hospitality, and home-cooked plov.",
     },
     {
       name: "New York City",
@@ -36,7 +36,8 @@ const About = () => {
     {
       name: "Tokyo, Japan",
       image: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800",
-      description: "Where precision meets beauty. The attention to detail in everything from food to transit inspires me.",
+      description:
+        "Where precision meets beauty. The attention to detail in everything from food to transit inspires me.",
     },
     {
       name: "Lisbon, Portugal",
@@ -55,13 +56,15 @@ const About = () => {
       title: "The Almanack of Naval Ravikant",
       author: "Eric Jorgenson",
       cover: "https://covers.openlibrary.org/b/isbn/9781544514215-M.jpg",
-      recommendation: "A guide to wealth and happiness. Naval's wisdom on leverage and judgment shaped my career approach.",
+      recommendation:
+        "A guide to wealth and happiness. Naval's wisdom on leverage and judgment shaped my career approach.",
     },
     {
       title: "The Anthology of Balaji",
       author: "Eric Jorgenson",
       cover: "https://covers.openlibrary.org/b/isbn/9781544542911-M.jpg",
-      recommendation: "Frameworks on technology and the future of society. Essential for understanding where we're headed.",
+      recommendation:
+        "Frameworks on technology and the future of society. Essential for understanding where we're headed.",
     },
     {
       title: "Storyworthy",
@@ -98,7 +101,7 @@ const About = () => {
             <div className="text-center mb-20">
               <p className="font-body text-xs uppercase tracking-[0.3em] text-muted-foreground mb-6">About</p>
               <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-normal text-foreground mb-8">
-                Passionate About Design
+                Optimistic Problem Solver
               </h1>
               <div className="w-12 h-px bg-foreground/30 mx-auto" />
             </div>
@@ -107,23 +110,28 @@ const About = () => {
             <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-start mb-24">
               <div className="space-y-6">
                 <p className="font-body text-base text-muted-foreground leading-relaxed">
-                 I grew up in the southernmost part of Kazakhstan that is rarely searched on the map. Shymkent, my home town is a rapidly growing modern metropolis touched by the gorgeous Tian-Shan mountains, and the people who live there appreciate a good hustle, have strong family values, and take pride in their hospitality. 
+                  I grew up in the southernmost part of Kazakhstan that is rarely searched on the map. Shymkent, my home
+                  town, is a rapidly growing modern metropolis near the gorgeous Tian-Shan mountains, and the people who
+                  live there appreciate a good hustle, have strong family values, and take pride in their hospitality.
                 </p>
                 <p className="font-body text-base text-muted-foreground leading-relaxed">
-                Now (and probably forever), I call New York my home.
+                  Now (and probably forever), I call New York my home.
                 </p>
                 <p className="font-body text-base text-muted-foreground leading-relaxed">
-                  I've built my career as a series of venn diagrams of disciplines and domains: 
-                  software engineering → technical management → solutions engineering, 
-                  SEO → commerce → finance.
+                  I've built my career as a series of venn diagrams of disciplines and domains: software engineering →
+                  technical management → solutions engineering, SEO → commerce → finance.
                 </p>
                 <p className="font-body text-base text-muted-foreground leading-relaxed">
-                  Then I found my "true north" in Solutions Engineering: using the power of technology and communication for bringing customers from outdated systems into better, smarter, happier state of growth.
+                  Then I found my "true north" in Solutions Engineering: using the power of technology and communication
+                  for bringing customers from outdated systems into better, smarter, happier state of growth.
                 </p>
                 <p className="font-body text-base text-muted-foreground leading-relaxed">
-                I respect companies (Ramp, Shopify, Stripe) led by founders who challenge status quo, build with taste and urgency, and generate enormous value for their users.
+                  I respect companies (Ramp, Shopify, Stripe) led by founders who challenge status quo, build with taste
+                  and urgency, and generate enormous value for their users.
                 </p>
-                <p className="font-body text-base text-muted-foreground leading-relaxed">My career belief: find things worth doing - then do them well.</p>
+                <p className="font-body text-base text-muted-foreground leading-relaxed">
+                  My career belief: find things worth doing - then do them well.
+                </p>
               </div>
 
               {/* Stats */}
@@ -180,7 +188,7 @@ const About = () => {
                 {favoritePlaces.map((place, index) => (
                   <div key={index} className="group">
                     <div className="border border-border overflow-hidden mb-4">
-                      <AspectRatio ratio={4/3}>
+                      <AspectRatio ratio={4 / 3}>
                         <img
                           src={place.image}
                           alt={place.name}
@@ -204,7 +212,7 @@ const About = () => {
                 {books.map((book, index) => (
                   <div key={index} className="group flex gap-4">
                     <div className="border border-border p-2 bg-muted/20 flex-shrink-0 w-20">
-                      <AspectRatio ratio={2/3}>
+                      <AspectRatio ratio={2 / 3}>
                         <img
                           src={book.cover}
                           alt={`${book.title} by ${book.author}`}
@@ -217,9 +225,7 @@ const About = () => {
                       <p className="font-body text-[10px] uppercase tracking-[0.15em] text-muted-foreground mb-2">
                         {book.author}
                       </p>
-                      <p className="font-body text-xs text-muted-foreground leading-relaxed">
-                        {book.recommendation}
-                      </p>
+                      <p className="font-body text-xs text-muted-foreground leading-relaxed">{book.recommendation}</p>
                     </div>
                   </div>
                 ))}
