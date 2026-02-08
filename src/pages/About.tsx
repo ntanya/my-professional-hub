@@ -6,7 +6,7 @@ const About = () => {
   const values = [
     {
       icon: Sparkles,
-      title: "High agency, bias for action.",
+      title: "High agency, bias for action",
       description: "Everything is figure-outable.",
     },
     {
@@ -132,8 +132,8 @@ const About = () => {
                   for bringing customers from outdated systems into better, smarter, happier state of growth.
                 </p>
                 <p className="font-body text-base text-muted-foreground leading-relaxed">
-                  I respect companies (Ramp, Shopify, Stripe) led by founders who challenge status quo, build with taste
-                  and urgency, and generate enormous value for their users.
+                  I respect companies (Ramp, Shopify, Stripe) led by founders who challenge the status quo, build with
+                  taste and urgency, and create enormous value for their users.
                 </p>
                 <p className="font-body text-base text-muted-foreground leading-relaxed">
                   My career belief: find things worth doing - then do them well.
