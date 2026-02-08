@@ -31,13 +31,13 @@ const About = () => {
     {
       name: "Georgia",
       image: "https://images.unsplash.com/photo-1565008576549-57569a49371d?w=800",
-      description: "Ancient winemaking traditions, stunning Caucasus mountains, and hospitality that rivals my homeland.",
+      description:
+        "Ancient winemaking traditions, stunning Caucasus mountains, and hospitality that rivals my homeland.",
     },
     {
       name: "Copenhagen, Denmark",
       image: "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=800",
-      description:
-        "Design excellence at every corner. Hygge culture, cycling, and the world's best restaurants.",
+      description: "Design excellence at every corner. Hygge culture, cycling, and the world's best restaurants.",
     },
     {
       name: "Iceland",
@@ -52,8 +52,7 @@ const About = () => {
     {
       name: "Southern Kazakhstan",
       image: "https://images.unsplash.com/photo-1530841377377-3ff06c0ca713?w=800",
-      description:
-        "My roots. The Tian-Shan mountains, endless hospitality, and the taste of home-cooked plov.",
+      description: "My roots. The Tian-Shan mountains, endless hospitality, and the taste of home-cooked plov.",
     },
   ];
 
@@ -107,7 +106,7 @@ const About = () => {
             <div className="text-center mb-20">
               <p className="font-body text-xs uppercase tracking-[0.3em] text-muted-foreground mb-6">About</p>
               <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-normal text-foreground mb-8">
-                Passionate About Design
+                Optimistic Problem Solver
               </h1>
               <div className="w-12 h-px bg-foreground/30 mx-auto" />
             </div>
@@ -238,7 +237,8 @@ const About = () => {
                 ))}
               </div>
               <p className="font-body text-sm text-muted-foreground leading-relaxed text-center mt-10">
-                These books are worth re-reading. Please support local booksellers, libraries and places genuinely built for readers.
+                These books are worth re-reading. Please support local booksellers, libraries and places genuinely built
+                for readers.
               </p>
             </div>
           </div>
