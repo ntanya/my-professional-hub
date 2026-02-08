@@ -17,7 +17,7 @@ const About = () => {
     {
       icon: Users,
       title: "Integrity and kindness",
-      description: "Everyone is human. Don't be an asshole.",
+      description: "Lead with your heart.",
     },
   ];
 
