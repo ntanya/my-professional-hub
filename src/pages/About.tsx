@@ -7,12 +7,12 @@ const About = () => {
     {
       icon: Sparkles,
       title: "High agency, bias for action.",
-      description: "Question the question. Everything is figure-outable.",
+      description: "High agency, bias for action",
     },
     {
       icon: Target,
       title: "Brevity and clarity in communication",
-      description: "Simplicity is the ultimate luxury.",
+      description: "",
     },
     {
       icon: Users,
@@ -62,7 +62,7 @@ const About = () => {
     {
       title: "The Anthology of Balaji",
       author: "Eric Jorgenson",
-      cover: "https://covers.openlibrary.org/b/isbn/9781544542911-M.jpg",
+      cover: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1697658365i/200179688.jpg",
       recommendation:
         "Frameworks on technology and the future of society. Essential for understanding where we're headed.",
     },
@@ -101,7 +101,7 @@ const About = () => {
             <div className="text-center mb-20">
               <p className="font-body text-xs uppercase tracking-[0.3em] text-muted-foreground mb-6">About</p>
               <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-normal text-foreground mb-8">
-                Optimistic Problem Solver
+                Passionate About Design
               </h1>
               <div className="w-12 h-px bg-foreground/30 mx-auto" />
             </div>
@@ -111,8 +111,9 @@ const About = () => {
               <div className="space-y-6">
                 <p className="font-body text-base text-muted-foreground leading-relaxed">
                   I grew up in the southernmost part of Kazakhstan that is rarely searched on the map. Shymkent, my home
-                  town, is a rapidly growing modern metropolis near the gorgeous Tian-Shan mountains, and the people who
-                  live there appreciate a good hustle, have strong family values, and take pride in their hospitality.
+                  town is a rapidly growing modern metropolis touched by the gorgeous Tian-Shan mountains, and the
+                  people who live there appreciate a good hustle, have strong family values, and take pride in their
+                  hospitality.
                 </p>
                 <p className="font-body text-base text-muted-foreground leading-relaxed">
                   Now (and probably forever), I call New York my home.
