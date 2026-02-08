@@ -190,7 +190,7 @@ const About = () => {
               <p className="font-body text-xs uppercase tracking-[0.3em] text-muted-foreground mb-10 text-center">
                 Wanderlust
               </p>
-              <h2 class="font-display text-3xl md:text-4xl italic text-center mb-16">Favorite Places</h2>
+              <h2 className="font-display text-3xl md:text-4xl italic text-center mb-16">Favorite Places</h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {favoritePlaces.map((place, index) => (
                   <div key={index} className="group">
@@ -215,7 +215,7 @@ const About = () => {
               <p className="font-body text-xs uppercase tracking-[0.3em] text-muted-foreground mb-10 text-center">
                 Reading List
               </p>
-              <h2 class="font-display text-3xl md:text-4xl italic text-center mb-16">On My Bookshelf</h2>
+              <h2 className="font-display text-3xl md:text-4xl italic text-center mb-16">On My Bookshelf</h2>
               <div className="grid md:grid-cols-3 gap-8">
                 {books.map((book, index) => (
                   <div key={index} className="group flex gap-4">
