@@ -22,42 +22,70 @@ const About = () => {
     },
   ];
 
+  const favoritePlaces = [
+    {
+      name: "Shymkent, Kazakhstan",
+      image: "https://images.unsplash.com/photo-1530841377377-3ff06c0ca713?w=800",
+      description: "My hometown at the foot of the Tian-Shan mountains. A city of hustlers, hospitality, and home-cooked plov.",
+    },
+    {
+      name: "New York City",
+      image: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800",
+      description: "My forever home. The energy, diversity, and relentless ambition of this city matches my own.",
+    },
+    {
+      name: "Tokyo, Japan",
+      image: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800",
+      description: "Where precision meets beauty. The attention to detail in everything from food to transit inspires me.",
+    },
+    {
+      name: "Lisbon, Portugal",
+      image: "https://images.unsplash.com/photo-1585208798174-6cedd86e019a?w=800",
+      description: "Sun-soaked tiles, fresh pastéis, and a creative tech scene. The perfect blend of old and new.",
+    },
+    {
+      name: "Almaty, Kazakhstan",
+      image: "https://images.unsplash.com/photo-1568890480800-350967dd5b72?w=800",
+      description: "The cultural heart of Kazakhstan. Mountains, apples, and the spirit of Central Asia.",
+    },
+  ];
+
   const books = [
     {
       title: "The Almanack of Naval Ravikant",
       author: "Eric Jorgenson",
       cover: "https://covers.openlibrary.org/b/isbn/9781544514215-M.jpg",
-      recommendation: "A guide to wealth and happiness from one of Silicon Valley's most respected thinkers. Naval's wisdom on leverage, judgment, and specific knowledge has shaped how I approach my career.",
+      recommendation: "A guide to wealth and happiness. Naval's wisdom on leverage and judgment shaped my career approach.",
     },
     {
       title: "The Anthology of Balaji",
       author: "Eric Jorgenson",
       cover: "https://covers.openlibrary.org/b/isbn/9781544542911-M.jpg",
-      recommendation: "Balaji's frameworks on technology, startups, and the future of society. Essential reading for understanding where the world is headed.",
+      recommendation: "Frameworks on technology and the future of society. Essential for understanding where we're headed.",
     },
     {
       title: "Storyworthy",
       author: "Matthew Dicks",
       cover: "https://covers.openlibrary.org/b/isbn/9781608685486-M.jpg",
-      recommendation: "The art of finding and telling compelling stories. Changed how I communicate in presentations and everyday conversations.",
+      recommendation: "The art of finding and telling compelling stories. Changed how I communicate.",
     },
     {
       title: "Never Split the Difference",
       author: "Chris Voss",
       cover: "https://covers.openlibrary.org/b/isbn/9780062407801-M.jpg",
-      recommendation: "Negotiation tactics from an FBI hostage negotiator. Practical techniques I use in every sales conversation and stakeholder discussion.",
+      recommendation: "FBI negotiation tactics I use in every sales conversation and stakeholder discussion.",
     },
     {
       title: "The Psychology of Money",
       author: "Morgan Housel",
       cover: "https://covers.openlibrary.org/b/isbn/9780857197689-M.jpg",
-      recommendation: "Morgan Housel's insights on the psychology of money and spending decisions. A thoughtful guide to aligning your spending with your values.",
+      recommendation: "Insights on the psychology of money. A guide to aligning spending with values.",
     },
     {
       title: "Unreasonable Hospitality",
       author: "Will Guidara",
       cover: "https://covers.openlibrary.org/b/isbn/9780593418574-M.jpg",
-      recommendation: "The power of going above and beyond for customers. Will's philosophy on hospitality applies far beyond restaurants—it's about making people feel seen.",
+      recommendation: "Going above and beyond for customers. It's about making people feel seen.",
     },
   ];
 
@@ -143,15 +171,39 @@ const About = () => {
               </div>
             </div>
 
+            {/* Favorite Places */}
+            <div className="mb-24">
+              <p className="font-body text-xs uppercase tracking-[0.3em] text-muted-foreground mb-10 text-center">
+                Favorite Places
+              </p>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {favoritePlaces.map((place, index) => (
+                  <div key={index} className="group">
+                    <div className="border border-border overflow-hidden mb-4">
+                      <AspectRatio ratio={4/3}>
+                        <img
+                          src={place.image}
+                          alt={place.name}
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        />
+                      </AspectRatio>
+                    </div>
+                    <h3 className="font-display text-lg italic text-foreground mb-2">{place.name}</h3>
+                    <p className="font-body text-sm text-muted-foreground leading-relaxed">{place.description}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
             {/* On My Bookshelf */}
             <div>
               <p className="font-body text-xs uppercase tracking-[0.3em] text-muted-foreground mb-10 text-center">
                 On My Bookshelf
               </p>
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+              <div className="grid md:grid-cols-3 gap-8">
                 {books.map((book, index) => (
-                  <div key={index} className="group">
-                    <div className="border border-border p-2 mb-3 bg-muted/20 w-24 mx-auto">
+                  <div key={index} className="group flex gap-4">
+                    <div className="border border-border p-2 bg-muted/20 flex-shrink-0 w-20">
                       <AspectRatio ratio={2/3}>
                         <img
                           src={book.cover}
@@ -160,13 +212,15 @@ const About = () => {
                         />
                       </AspectRatio>
                     </div>
-                    <h3 className="font-display text-sm italic text-foreground mb-1 text-center">{book.title}</h3>
-                    <p className="font-body text-[10px] uppercase tracking-[0.15em] text-muted-foreground mb-2 text-center">
-                      {book.author}
-                    </p>
-                    <p className="font-body text-xs text-muted-foreground leading-relaxed text-center">
-                      {book.recommendation}
-                    </p>
+                    <div>
+                      <h3 className="font-display text-sm italic text-foreground mb-1">{book.title}</h3>
+                      <p className="font-body text-[10px] uppercase tracking-[0.15em] text-muted-foreground mb-2">
+                        {book.author}
+                      </p>
+                      <p className="font-body text-xs text-muted-foreground leading-relaxed">
+                        {book.recommendation}
+                      </p>
+                    </div>
                   </div>
                 ))}
               </div>
