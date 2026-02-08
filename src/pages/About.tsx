@@ -23,31 +23,37 @@ const About = () => {
 
   const favoritePlaces = [
     {
-      name: "Shymkent, Kazakhstan",
+      name: "Normandy, France",
+      image: "https://images.unsplash.com/photo-1560717789-0ac7c58ac90a?w=800",
+      description:
+        "Windswept coastlines, historic charm, and the best butter in the world. A place that moves slowly and beautifully.",
+    },
+    {
+      name: "Georgia",
+      image: "https://images.unsplash.com/photo-1565008576549-57569a49371d?w=800",
+      description: "Ancient winemaking traditions, stunning Caucasus mountains, and hospitality that rivals my homeland.",
+    },
+    {
+      name: "Copenhagen, Denmark",
+      image: "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=800",
+      description:
+        "Design excellence at every corner. Hygge culture, cycling, and the world's best restaurants.",
+    },
+    {
+      name: "Iceland",
+      image: "https://images.unsplash.com/photo-1504893524553-b855bce32c67?w=800",
+      description: "Raw, untamed nature. Glaciers, geysers, and the Northern Lights remind you how small we are.",
+    },
+    {
+      name: "Santorini, Greece",
+      image: "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=800",
+      description: "Blue domes, white walls, and sunsets that stop time. Mediterranean beauty at its peak.",
+    },
+    {
+      name: "Southern Kazakhstan",
       image: "https://images.unsplash.com/photo-1530841377377-3ff06c0ca713?w=800",
       description:
-        "My hometown at the foot of the Tian-Shan mountains. A city of hustlers, hospitality, and home-cooked plov.",
-    },
-    {
-      name: "New York City",
-      image: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800",
-      description: "My forever home. The energy, diversity, and relentless ambition of this city matches my own.",
-    },
-    {
-      name: "Tokyo, Japan",
-      image: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800",
-      description:
-        "Where precision meets beauty. The attention to detail in everything from food to transit inspires me.",
-    },
-    {
-      name: "Lisbon, Portugal",
-      image: "https://images.unsplash.com/photo-1585208798174-6cedd86e019a?w=800",
-      description: "Sun-soaked tiles, fresh pastéis, and a creative tech scene. The perfect blend of old and new.",
-    },
-    {
-      name: "Almaty, Kazakhstan",
-      image: "https://images.unsplash.com/photo-1568890480800-350967dd5b72?w=800",
-      description: "The cultural heart of Kazakhstan. Mountains, apples, and the spirit of Central Asia.",
+        "My roots. The Tian-Shan mountains, endless hospitality, and the taste of home-cooked plov.",
     },
   ];
 
