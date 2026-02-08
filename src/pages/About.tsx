@@ -62,7 +62,7 @@ const About = () => {
     {
       title: "The Anthology of Balaji",
       author: "Eric Jorgenson",
-      cover: "https://m.media-amazon.com/images/I/71TqGMM6XML._AC_UF1000,1000_QL80_.jpg",
+      cover: "/book-anthology-of-balaji.jpg",
       recommendation:
         "Frameworks on technology and the future of society. Essential for understanding where we're headed.",
     },
@@ -81,7 +81,7 @@ const About = () => {
     {
       title: "The Art of Spending Money",
       author: "Morgan Housel",
-      cover: "https://m.media-amazon.com/images/I/71g2ednj0JL._AC_UF1000,1000_QL80_.jpg",
+      cover: "/book-art-of-spending-money.jpg",
       recommendation: "Insights on spending with intention. A guide to aligning money with values.",
     },
     {
