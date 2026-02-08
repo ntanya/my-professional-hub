@@ -116,9 +116,8 @@ const About = () => {
               <div className="space-y-6">
                 <p className="font-body text-base text-muted-foreground leading-relaxed">
                   I grew up in the southernmost part of Kazakhstan that is rarely searched on the map. Shymkent, my home
-                  town is a rapidly growing modern metropolis touched by the gorgeous Tian-Shan mountains, and the
-                  people who live there appreciate a good hustle, have strong family values, and take pride in their
-                  hospitality.
+                  town is a rapidly growing modern metropolis near the gorgeous Tian-Shan mountains, and the people who
+                  live there appreciate a good hustle, have strong family values, and take pride in their hospitality.
                 </p>
                 <p className="font-body text-base text-muted-foreground leading-relaxed">
                   Now (and probably forever), I call New York my home.
