@@ -231,6 +231,9 @@ const About = () => {
                   </div>
                 ))}
               </div>
+              <p className="font-body text-sm text-muted-foreground leading-relaxed text-center mt-10">
+                These books are worth re-reading. Please support local booksellers, libraries and places genuinely built for readers.
+              </p>
             </div>
           </div>
         </div>
