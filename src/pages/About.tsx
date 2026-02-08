@@ -7,12 +7,12 @@ const About = () => {
     {
       icon: Sparkles,
       title: "High agency, bias for action.",
-      description: "High agency, bias for action",
+      description: "Everything is figure-outable.",
     },
     {
       icon: Target,
       title: "Brevity and clarity in communication",
-      description: "",
+      description: "Simplicity is the ultimate luxury.",
     },
     {
       icon: Users,
@@ -62,7 +62,7 @@ const About = () => {
     {
       title: "The Anthology of Balaji",
       author: "Eric Jorgenson",
-      cover: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1697658365i/200179688.jpg",
+      cover: "https://covers.openlibrary.org/b/isbn/9781544542911-M.jpg",
       recommendation:
         "Frameworks on technology and the future of society. Essential for understanding where we're headed.",
     },
