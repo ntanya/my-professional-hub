@@ -128,8 +128,8 @@ const About = () => {
                   technical management → solutions engineering, SEO → commerce → finance.
                 </p>
                 <p className="font-body text-base text-muted-foreground leading-relaxed">
-                  Then I found my "true north" in Solutions Engineering: using the power of technology and communication
-                  for bringing customers from outdated systems into better, smarter, happier state of growth.
+                  My "true north" is Solutions Engineering: using the power of technology and communication for bringing
+                  customers from outdated systems into better, smarter, happier state of growth.
                 </p>
                 <p className="font-body text-base text-muted-foreground leading-relaxed">
                   I respect companies (Ramp, Shopify, Stripe) led by founders who challenge the status quo, build with
