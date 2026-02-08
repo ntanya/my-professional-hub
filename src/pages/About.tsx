@@ -10,7 +10,7 @@ const About = () => {
       description: "Everything is figure-outable.",
     },
     {
-      icon: Target,
+      icon: BowArrow,
       title: "Brevity and clarity in communication",
       description: "Simplicity is the ultimate luxury.",
     },
