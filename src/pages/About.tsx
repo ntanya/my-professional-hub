@@ -62,7 +62,7 @@ const About = () => {
     {
       title: "The Anthology of Balaji",
       author: "Eric Jorgenson",
-      cover: "https://covers.openlibrary.org/b/isbn/9781544542911-M.jpg",
+      cover: "https://m.media-amazon.com/images/I/71TqGMM6XML._AC_UF1000,1000_QL80_.jpg",
       recommendation:
         "Frameworks on technology and the future of society. Essential for understanding where we're headed.",
     },
@@ -79,10 +79,10 @@ const About = () => {
       recommendation: "FBI negotiation tactics I use in every sales conversation and stakeholder discussion.",
     },
     {
-      title: "The Psychology of Money",
+      title: "The Art of Spending Money",
       author: "Morgan Housel",
-      cover: "https://covers.openlibrary.org/b/isbn/9780857197689-M.jpg",
-      recommendation: "Insights on the psychology of money. A guide to aligning spending with values.",
+      cover: "https://m.media-amazon.com/images/I/71g2ednj0JL._AC_UF1000,1000_QL80_.jpg",
+      recommendation: "Insights on spending with intention. A guide to aligning money with values.",
     },
     {
       title: "Unreasonable Hospitality",
