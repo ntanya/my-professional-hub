@@ -101,6 +101,60 @@ const Work = () => {
                 </article>
               ))}
             </div>
+
+            {/* Speaking Engagements */}
+            <div className="mt-32">
+              <div className="text-center mb-20">
+                <p className="font-body text-xs uppercase tracking-[0.3em] text-muted-foreground mb-6">
+                  Talks & Panels
+                </p>
+                <h2 className="font-display text-4xl md:text-5xl font-normal italic text-foreground mb-8">
+                  Speaking Engagements
+                </h2>
+                <p className="font-body text-base text-muted-foreground max-w-xl mx-auto mb-8">
+                  Sharing ideas on design, strategy, and the future of digital experiences.
+                </p>
+                <div className="w-12 h-px bg-foreground/30 mx-auto" />
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-8">
+                {[
+                  {
+                    title: "The Future of Design Systems",
+                    description: "A deep dive into how scalable design systems are reshaping product development and team collaboration.",
+                    event: "Design Summit 2024",
+                  },
+                  {
+                    title: "Bridging UX and Business Strategy",
+                    description: "Exploring the intersection of user experience and business goals to drive meaningful outcomes.",
+                    event: "Product Conference 2023",
+                  },
+                  {
+                    title: "Designing for Accessibility",
+                    description: "Why inclusive design isn't optional — and practical steps to make every product more accessible.",
+                    event: "A11y Week 2023",
+                  },
+                ].map((talk, index) => (
+                  <div key={index} className="group">
+                    {/* Video Placeholder */}
+                    <div className="aspect-video bg-secondary/50 border border-border flex items-center justify-center mb-5 group-hover:border-foreground/30 transition-colors duration-300">
+                      <div className="flex flex-col items-center gap-2 text-muted-foreground/40">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><polygon points="6 3 20 12 6 21 6 3" /></svg>
+                      </div>
+                    </div>
+                    <span className="font-body text-xs uppercase tracking-[0.2em] text-muted-foreground mb-2 block">
+                      {talk.event}
+                    </span>
+                    <h3 className="font-display text-xl italic text-foreground mb-2">
+                      {talk.title}
+                    </h3>
+                    <p className="font-body text-sm text-muted-foreground leading-relaxed">
+                      {talk.description}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>
