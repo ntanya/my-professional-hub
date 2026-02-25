@@ -117,25 +117,24 @@ const Work = () => {
               <div className="grid md:grid-cols-3 gap-8">
                 {[
                   {
-                    title: "The Future of Design Systems",
-                    description:
-                      "A deep dive into how scalable design systems are reshaping product development and team collaboration.",
-                    event: "Design Summit 2024",
-                    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                    title: "Innovations in Commerce",
+                    description: "Presented Shopify's growth features for enterprise brands.",
+                    event: "CommerceNext NYC - July 14, 2024",
+                    videoUrl: "https://www.youtube.com/watch?v=Vr_YMN8aJXY",
                   },
                   {
-                    title: "Bridging UX and Business Strategy",
+                    title: "Behind the scenes of the world's best converting checkout",
                     description:
-                      "Exploring the intersection of user experience and business goals to drive meaningful outcomes.",
-                    event: "Product Conference 2023",
-                    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                      "Presented Shopify's checkout and how it's optimized for performance for a technical audience.",
+                    event: "Web Performance Meetup, NYC - Oct 9, 2024",
+                    videoUrl: "https://www.youtube.com/watch?v=M6B7rXv-4-4",
                   },
                   {
-                    title: "Designing for Accessibility",
+                    title: "Page performance for SEO",
                     description:
-                      "Why inclusive design isn't optional — and practical steps to make every product more accessible.",
-                    event: "A11y Week 2023",
-                    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                      "Discussed importance and implications of Javascript on web performance and crawl budget.",
+                    event: "Web Performance Meetup, NYC - Nov 12, 2020",
+                    videoUrl: "https://www.youtube.com/watch?v=9c58ikixSkM",
                   },
                 ].map((talk, index) => (
                   <div key={index} className="group">
