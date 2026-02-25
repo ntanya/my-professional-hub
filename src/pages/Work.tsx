@@ -47,7 +47,7 @@ const Work = () => {
       title: "Bantam Bagels",
       category: "Web development, Wordpress, ecommerce",
       description:
-        "Earlier in my career I worked as a freelance software developer. Through friends, I've met a couple, who left their high-paying careers on Wall Street to start a bagel business. I've built them a Wordpress site with e-commerce functionality. Later, they went on being very successful - they raised money on Shark Tank with Lori Greiner and achieved nationwide distribution and growth.",
+        "Earlier in my career I worked as a freelance software developer. Through friends, I met a husband-wife couple who left their high-paying careers on Wall Street to start a bagel business. I've built them a Wordpress site with e-commerce functionality. Later, they went on being very successful - raised money on Shark Tank with Lori Greiner and achieved nationwide distribution and growth.",
       year: "2013",
       image: "/placeholder.svg",
     },
@@ -76,11 +76,7 @@ const Work = () => {
                 <article key={index} className="group cursor-pointer">
                   {/* Project Image Placeholder */}
                   <div className="aspect-[4/3] bg-secondary/50 border border-border relative overflow-hidden mb-6 group-hover:border-foreground/30 transition-colors duration-300">
-                    <img
-                      src={project.image}
-                      alt={project.title}
-                      className="w-full h-full object-cover"
-                    />
+                    <img src={project.image} alt={project.title} className="w-full h-full object-cover" />
 
                     {/* Hover overlay */}
                     <div className="absolute inset-0 bg-foreground/90 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
