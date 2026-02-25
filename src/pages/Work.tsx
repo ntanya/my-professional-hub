@@ -121,38 +121,32 @@ const Work = () => {
                     description:
                       "A deep dive into how scalable design systems are reshaping product development and team collaboration.",
                     event: "Design Summit 2024",
+                    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
                   },
                   {
                     title: "Bridging UX and Business Strategy",
                     description:
                       "Exploring the intersection of user experience and business goals to drive meaningful outcomes.",
                     event: "Product Conference 2023",
+                    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
                   },
                   {
                     title: "Designing for Accessibility",
                     description:
                       "Why inclusive design isn't optional — and practical steps to make every product more accessible.",
                     event: "A11y Week 2023",
+                    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
                   },
                 ].map((talk, index) => (
                   <div key={index} className="group">
-                    {/* Video Placeholder */}
-                    <div className="aspect-video bg-secondary/50 border border-border flex items-center justify-center mb-5 group-hover:border-foreground/30 transition-colors duration-300">
-                      <div className="flex flex-col items-center gap-2 text-muted-foreground/40">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="32"
-                          height="32"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="1.5"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <polygon points="6 3 20 12 6 21 6 3" />
-                        </svg>
-                      </div>
+                    <div className="aspect-video mb-5">
+                      <iframe
+                        className="w-full h-full border border-border"
+                        src={talk.videoUrl}
+                        title={talk.title}
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      />
                     </div>
                     <span className="font-body text-xs uppercase tracking-[0.2em] text-muted-foreground mb-2 block">
                       {talk.event}
