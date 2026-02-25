@@ -9,7 +9,7 @@ const Work = () => {
       description:
         "One of my favorite success stories while at Shopify - working with the most amazing, smart, open-minded and hard-working team at ALDO. We went to meet them in Montreal, and over 2 days ran a deep-dive workshop to understand their business. In under 9 months, ALDO moved 3 of their brands to Shopify's enterprise plan from SAP.",
       year: "2024",
-      image: "/placeholder.svg",
+      image: "/aldo-team.jpg",
     },
     {
       title: "Book retailer - Shopify migration",
@@ -33,7 +33,7 @@ const Work = () => {
       description:
         "Through my kids' school I met a wonderful parent, who ran a small business providing home-made, healthy meals as a service. I've built them a custom Shopify store that allows meal selection and subscription, using automation and metaobjects for weekly menus.",
       year: "2023",
-      image: "/placeholder.svg",
+      image: "/my-happy-tummy.webp",
     },
     {
       title: "MayNovember Shopify Store",
