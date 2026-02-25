@@ -4,40 +4,46 @@ import Layout from "@/components/Layout";
 const Work = () => {
   const projects = [
     {
-      title: "Fintech Dashboard",
-      category: "Product Design",
-      description: "A comprehensive analytics platform for financial advisors to track portfolios and market trends.",
+      title: "ALDO - Shopify migration",
+      category: "Enteprise solutions engineering",
+      description:
+        "One of my favorite success stories while at Shopify - working with the most amazing, smart, open-minded and hard-working team at ALDO. We went to meet them in Montreal, and over 2 days ran a deep-dive workshop to understand their business. In under 9 months, ALDO moved 3 of their brands to Shopify’s enterprise plan from SAP.",
       year: "2024",
     },
     {
-      title: "E-Commerce Redesign",
-      category: "UX Strategy",
-      description: "Complete overhaul of a retail brand's digital shopping experience, increasing conversions by 45%.",
+      title: "Book retailer - Shopify migration",
+      category: "Enteprise solutions engineering",
+      description:
+        "the most technically complex and interesting opportunity - the largest book retailer in the US, with over 12M books in their active catalog. I built a proof-of-concept to test the rate of inserts and updates of products, integrations with backend systems, presented storefront and search considerations and recommended technical architecture. ",
       year: "2023",
     },
     {
-      title: "Health & Wellness App",
-      category: "Mobile Design",
-      description: "Designing an intuitive fitness tracking app that makes health goals feel achievable.",
+      title: "Writing & audience building",
+      category: "Writing coach, social media marketing",
+      description:
+        "I made a pivot in my career journey after burning out from my VP role. I started writing on Instagram about living in NYC as a Russian-speaking immigrant and built an audience of 20K followers. This led to me collaborating with a copywriting school, and I worked as a writing coach for women and a freelance writer for 1.5 years.",
+      year: "2019",
+    },
+    {
+      title: "My Happy Tummy Club",
+      category: "Ecommerce Shopify store",
+      description:
+        "Through my kids’ school I met a wonderful parent, who ran a small business providing home-made, healthy meals as a service. I’ve built them a custom Shopify store that allows meal selection and subscription, using automation and metaobjects for weekly menus.",
       year: "2023",
     },
     {
-      title: "SaaS Brand Identity",
-      category: "Branding",
-      description: "Creating a cohesive visual identity for a B2B software company entering new markets.",
-      year: "2022",
+      title: "MayNovember Shopify Store",
+      category: "Ecommerce, web development",
+      description:
+        "Designed and built a fashion/apparel Shopify store for a friend. It was early days of Shopify, and I fell in love with ease and flexibility of its Liquid templates. We operated the store for about a year, and learned a ton about marketing, merchandising, inventory movement, customer service. ",
+      year: "2012",
     },
     {
-      title: "Travel Booking Platform",
-      category: "Product Design",
-      description: "Reimagining the travel booking experience with a focus on personalization and ease of use.",
-      year: "2022",
-    },
-    {
-      title: "Educational Platform",
-      category: "UX Research",
-      description: "Research-driven redesign of an online learning platform serving millions of students worldwide.",
-      year: "2021",
+      title: "Bantam Bagels",
+      category: "Web development, Wordpress, ecommerce",
+      description:
+        "Earlier in my career I worked as a freelance software developer. Through friends, I’ve met a couple, who left their high-paying careers on Wall Street to start a bagel business. I’ve built them a Wordpress site with e-commerce functionality. Later, they went on being very successful - they raised money on Shark Tank with Lori Greiner and achieved nationwide distribution and growth.",
+      year: "2013",
     },
   ];
 
@@ -48,9 +54,7 @@ const Work = () => {
           <div className="max-w-5xl mx-auto">
             {/* Section Header */}
             <div className="text-center mb-20">
-              <p className="font-body text-xs uppercase tracking-[0.3em] text-muted-foreground mb-6">
-                Portfolio
-              </p>
+              <p className="font-body text-xs uppercase tracking-[0.3em] text-muted-foreground mb-6">Portfolio</p>
               <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-normal italic text-foreground mb-8">
                 Selected Projects
               </h1>
@@ -63,16 +67,13 @@ const Work = () => {
             {/* Projects Grid */}
             <div className="grid md:grid-cols-2 gap-x-10 gap-y-16">
               {projects.map((project, index) => (
-                <article
-                  key={index}
-                  className="group cursor-pointer"
-                >
+                <article key={index} className="group cursor-pointer">
                   {/* Project Image Placeholder */}
                   <div className="aspect-[4/3] bg-secondary/50 border border-border flex items-center justify-center relative overflow-hidden mb-6 group-hover:border-foreground/30 transition-colors duration-300">
                     <span className="font-display text-6xl italic text-foreground/10">
                       {String(index + 1).padStart(2, "0")}
                     </span>
-                    
+
                     {/* Hover overlay */}
                     <div className="absolute inset-0 bg-foreground/90 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <div className="w-12 h-12 border border-background flex items-center justify-center">
@@ -87,16 +88,12 @@ const Work = () => {
                       <span className="font-body text-xs uppercase tracking-[0.2em] text-muted-foreground">
                         {project.category}
                       </span>
-                      <span className="font-body text-xs text-muted-foreground">
-                        {project.year}
-                      </span>
+                      <span className="font-body text-xs text-muted-foreground">{project.year}</span>
                     </div>
                     <h3 className="font-display text-2xl italic text-foreground mb-3 group-hover:opacity-70 transition-opacity duration-300">
                       {project.title}
                     </h3>
-                    <p className="font-body text-sm text-muted-foreground leading-relaxed">
-                      {project.description}
-                    </p>
+                    <p className="font-body text-sm text-muted-foreground leading-relaxed">{project.description}</p>
                   </div>
                 </article>
               ))}
@@ -121,17 +118,20 @@ const Work = () => {
                 {[
                   {
                     title: "The Future of Design Systems",
-                    description: "A deep dive into how scalable design systems are reshaping product development and team collaboration.",
+                    description:
+                      "A deep dive into how scalable design systems are reshaping product development and team collaboration.",
                     event: "Design Summit 2024",
                   },
                   {
                     title: "Bridging UX and Business Strategy",
-                    description: "Exploring the intersection of user experience and business goals to drive meaningful outcomes.",
+                    description:
+                      "Exploring the intersection of user experience and business goals to drive meaningful outcomes.",
                     event: "Product Conference 2023",
                   },
                   {
                     title: "Designing for Accessibility",
-                    description: "Why inclusive design isn't optional — and practical steps to make every product more accessible.",
+                    description:
+                      "Why inclusive design isn't optional — and practical steps to make every product more accessible.",
                     event: "A11y Week 2023",
                   },
                 ].map((talk, index) => (
@@ -139,18 +139,26 @@ const Work = () => {
                     {/* Video Placeholder */}
                     <div className="aspect-video bg-secondary/50 border border-border flex items-center justify-center mb-5 group-hover:border-foreground/30 transition-colors duration-300">
                       <div className="flex flex-col items-center gap-2 text-muted-foreground/40">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><polygon points="6 3 20 12 6 21 6 3" /></svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="32"
+                          height="32"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <polygon points="6 3 20 12 6 21 6 3" />
+                        </svg>
                       </div>
                     </div>
                     <span className="font-body text-xs uppercase tracking-[0.2em] text-muted-foreground mb-2 block">
                       {talk.event}
                     </span>
-                    <h3 className="font-display text-xl italic text-foreground mb-2">
-                      {talk.title}
-                    </h3>
-                    <p className="font-body text-sm text-muted-foreground leading-relaxed">
-                      {talk.description}
-                    </p>
+                    <h3 className="font-display text-xl italic text-foreground mb-2">{talk.title}</h3>
+                    <p className="font-body text-sm text-muted-foreground leading-relaxed">{talk.description}</p>
                   </div>
                 ))}
               </div>
