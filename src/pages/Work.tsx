@@ -20,20 +20,20 @@ const Work = () => {
       image: "/bookstore.jpg",
     },
     {
-      title: "Writing & audience building",
-      category: "Writing coach, social media marketing",
-      description:
-        "I made a pivot in my career journey after burning out from my VP role. I started writing on Instagram about living in NYC as a Russian-speaking immigrant and built an audience of 20K followers. This led to me collaborating with a copywriting school, and I worked as a writing coach for women and a freelance writer for 1.5 years.",
-      year: "2019",
-      image: "/placeholder.svg",
-    },
-    {
       title: "My Happy Tummy Club",
       category: "Ecommerce Shopify store",
       description:
         "Through my kids' school I met a wonderful parent, who ran a small business providing home-made, healthy meals as a service. I've built them a custom Shopify store that allows meal selection and subscription, using automation and metaobjects for weekly menus.",
       year: "2023",
       image: "/my-happy-tummy.webp",
+    },
+    {
+      title: "Writing & audience building",
+      category: "Writing coach, social media marketing",
+      description:
+        "I made a pivot in my career journey after burning out from my VP role. I started writing on Instagram about living in NYC as a Russian-speaking immigrant and built an audience of 20K followers. This led to me collaborating with a copywriting school, and I worked as a writing coach for women and a freelance writer for 1.5 years.",
+      year: "2019",
+      image: "/placeholder.svg",
     },
     {
       title: "MayNovember Shopify Store",
