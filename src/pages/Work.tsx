@@ -17,7 +17,7 @@ const Work = () => {
       description:
         "the most technically complex and interesting opportunity - the largest book retailer in the US, with over 12M books in their active catalog. I built a proof-of-concept to test the rate of inserts and updates of products, integrations with backend systems, presented storefront and search considerations and recommended technical architecture. ",
       year: "2023",
-      image: "/placeholder.svg",
+      image: "/bookstore.jpg",
     },
     {
       title: "Writing & audience building",
@@ -41,7 +41,7 @@ const Work = () => {
       description:
         "Designed and built a fashion/apparel Shopify store for a friend. It was early days of Shopify, and I fell in love with ease and flexibility of its Liquid templates. We operated the store for about a year, and learned a ton about marketing, merchandising, inventory movement, customer service. ",
       year: "2012",
-      image: "/placeholder.svg",
+      image: "/may-november.jpg",
     },
     {
       title: "Bantam Bagels",
