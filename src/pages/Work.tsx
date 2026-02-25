@@ -120,21 +120,21 @@ const Work = () => {
                     title: "Innovations in Commerce",
                     description: "Presented Shopify's growth features for enterprise brands.",
                     event: "CommerceNext NYC - July 14, 2024",
-                    videoUrl: "https://www.youtube.com/watch?v=Vr_YMN8aJXY",
+                    videoUrl: "https://www.youtube.com/embed/Vr_YMN8aJXY",
                   },
                   {
                     title: "Behind the scenes of the world's best converting checkout",
                     description:
                       "Presented Shopify's checkout and how it's optimized for performance for a technical audience.",
                     event: "Web Performance Meetup, NYC - Oct 9, 2024",
-                    videoUrl: "https://www.youtube.com/watch?v=M6B7rXv-4-4",
+                    videoUrl: "https://www.youtube.com/embed/M6B7rXv-4-4",
                   },
                   {
                     title: "Page performance for SEO",
                     description:
                       "Discussed importance and implications of Javascript on web performance and crawl budget.",
                     event: "Web Performance Meetup, NYC - Nov 12, 2020",
-                    videoUrl: "https://www.youtube.com/watch?v=9c58ikixSkM",
+                    videoUrl: "https://www.youtube.com/embed/9c58ikixSkM",
                   },
                 ].map((talk, index) => (
                   <div key={index} className="group">
