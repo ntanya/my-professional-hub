@@ -1,21 +1,21 @@
-import { Sparkles, Target, Users } from "lucide-react";
+import { Rocket, Focus, HeartHandshake } from "lucide-react";
 import Layout from "@/components/Layout";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const About = () => {
   const values = [
     {
-      icon: Sparkles,
+      icon: Rocket,
       title: "High agency, bias for action",
       description: "Everything is figure-outable.",
     },
     {
-      icon: Target,
+      icon: Focus,
       title: "Brevity and clarity in communication",
       description: "Simplicity is the ultimate luxury.",
     },
     {
-      icon: Users,
+      icon: HeartHandshake,
       title: "Integrity and kindness",
       description: "Lead with your heart.",
     },
@@ -160,8 +160,8 @@ const About = () => {
               <div className="grid md:grid-cols-3 gap-10">
                 {values.map((value, index) => (
                   <div key={index} className="group text-center">
-                    <div className="w-12 h-12 border border-border flex items-center justify-center mb-6 mx-auto group-hover:border-foreground transition-colors duration-300">
-                      <value.icon className="w-5 h-5 text-foreground" />
+                    <div className="w-16 h-16 border border-border flex items-center justify-center mb-6 mx-auto group-hover:border-foreground transition-colors duration-300">
+                      <value.icon className="w-7 h-7 text-foreground" strokeWidth={1.5} />
                     </div>
                     <h3 className="font-display text-xl italic text-foreground mb-4">{value.title}</h3>
                     <p className="font-body text-sm text-muted-foreground leading-relaxed">{value.description}</p>
