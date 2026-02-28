@@ -147,13 +147,17 @@ const About = () => {
                 />
               </div>
             </div>
+          </div>
+        </div>
 
-            {/* Values */}
-            <div className="mb-24 -mx-6 lg:-mx-12 px-6 lg:px-12 py-16 bg-popover border-y border-border">
+        {/* Values - Full Width */}
+        <div className="w-full py-16 bg-popover border-y border-border mb-24">
+          <div className="container mx-auto px-6 lg:px-12">
+            <div className="max-w-5xl mx-auto">
               <p className="font-body text-xs uppercase tracking-[0.3em] text-muted-foreground mb-10 text-center">
                 Core Values
               </p>
-              <div className="grid md:grid-cols-3 gap-10 max-w-5xl mx-auto">
+              <div className="grid md:grid-cols-3 gap-10">
                 {values.map((value, index) => (
                   <div key={index} className="group text-center">
                     <div className="w-12 h-12 border border-border flex items-center justify-center mb-6 mx-auto group-hover:border-foreground transition-colors duration-300">
@@ -165,7 +169,11 @@ const About = () => {
                 ))}
               </div>
             </div>
+          </div>
+        </div>
 
+        <div className="container mx-auto px-6 lg:px-12">
+          <div className="max-w-5xl mx-auto">
             {/* Favorite Places */}
             <div className="mb-24">
               <p className="font-body text-xs uppercase tracking-[0.3em] text-muted-foreground mb-10 text-center">
