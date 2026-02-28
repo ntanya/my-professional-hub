@@ -15,7 +15,7 @@ const Work = () => {
       title: "Book retailer - Shopify migration",
       category: "Enteprise solutions engineering",
       description:
-        "the most technically complex and interesting opportunity - the largest book retailer in the US, with over 12M books in their active catalog. I built a proof-of-concept to test the rate of inserts and updates of products, integrations with backend systems, presented storefront and search considerations and recommended technical architecture. ",
+        "The most technically complex and interesting opportunity - the largest book retailer in the US, with over 12M books in their active catalog. I built a proof-of-concept to test the rate of inserts and updates of products, integrations with backend systems, presented storefront and search considerations and recommended technical architecture. ",
       year: "2023",
       image: "/bookstore.jpg",
     },
@@ -31,7 +31,7 @@ const Work = () => {
       title: "Writing & audience building",
       category: "Writing coach, social media marketing",
       description:
-        "I made a pivot in my career journey after burning out from my VP role. I started writing on Instagram about living in NYC as a Russian-speaking immigrant and built an audience of 20K followers. This led to me collaborating with a copywriting school, and I worked as a writing coach for women and a freelance writer for 1.5 years.",
+        "I made a pivot in my career journey after burning out from my VP role. I started writing on Instagram about living in NYC as a Russian-speaking immigrant and built an audience of 20K followers. This led to me collaborating with a copywriting school, and I worked as a writing coach for women. I was also writing as a freelancer for 1.5 years.",
       year: "2019",
       image: "/tanya-ny.jpg",
     },
