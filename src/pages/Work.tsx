@@ -65,7 +65,7 @@ const Work = () => {
                 Selected Projects
               </h1>
               <p className="font-body text-base text-muted-foreground max-w-xl mx-auto mb-8">
-                Curated showcase of diverse projects that showcase my technical skills, strategic thinking, leadership,
+                Curated selection of diverse projects that showcase my technical skills, strategic thinking, leadership,
                 and problem-solving.
               </p>
               <div className="w-12 h-px bg-foreground/30 mx-auto" />
