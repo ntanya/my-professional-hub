@@ -139,30 +139,12 @@ const About = () => {
                 </p>
               </div>
 
-              {/* Stats */}
-              <div className="border border-border p-10 lg:p-12">
-                <div className="grid grid-cols-2 gap-10">
-                  <div className="text-center">
-                    <p className="font-display text-4xl italic text-foreground mb-2">8+</p>
-                    <p className="font-body text-xs text-muted-foreground uppercase tracking-[0.15em]">
-                      Years Experience
-                    </p>
-                  </div>
-                  <div className="text-center">
-                    <p className="font-display text-4xl italic text-foreground mb-2">50+</p>
-                    <p className="font-body text-xs text-muted-foreground uppercase tracking-[0.15em]">
-                      Projects Completed
-                    </p>
-                  </div>
-                  <div className="text-center">
-                    <p className="font-display text-4xl italic text-foreground mb-2">30+</p>
-                    <p className="font-body text-xs text-muted-foreground uppercase tracking-[0.15em]">Happy Clients</p>
-                  </div>
-                  <div className="text-center">
-                    <p className="font-display text-4xl italic text-foreground mb-2">12</p>
-                    <p className="font-body text-xs text-muted-foreground uppercase tracking-[0.15em]">Awards Won</p>
-                  </div>
-                </div>
+              <div className="border border-border overflow-hidden">
+                <img
+                  src="/about-portrait.jpg"
+                  alt="Portrait photo"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
 
