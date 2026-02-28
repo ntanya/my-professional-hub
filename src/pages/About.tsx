@@ -149,11 +149,11 @@ const About = () => {
             </div>
 
             {/* Values */}
-            <div className="mb-24">
+            <div className="mb-24 -mx-6 lg:-mx-12 px-6 lg:px-12 py-16 bg-popover border-y border-border">
               <p className="font-body text-xs uppercase tracking-[0.3em] text-muted-foreground mb-10 text-center">
                 Core Values
               </p>
-              <div className="grid md:grid-cols-3 gap-10">
+              <div className="grid md:grid-cols-3 gap-10 max-w-5xl mx-auto">
                 {values.map((value, index) => (
                   <div key={index} className="group text-center">
                     <div className="w-12 h-12 border border-border flex items-center justify-center mb-6 mx-auto group-hover:border-foreground transition-colors duration-300">
