@@ -21,7 +21,7 @@ const Work = () => {
     },
     {
       title: "My Happy Tummy Club",
-      category: "Ecommerce Shopify store",
+      category: "Ecommerce - Shopify store",
       description:
         "Through my kids' school I met a wonderful parent, who ran a small business providing home-made, healthy meals as a service. I've built them a custom Shopify store that allows meal selection and subscription, using automation and metaobjects for weekly menus.",
       year: "2023",
@@ -37,7 +37,7 @@ const Work = () => {
     },
     {
       title: "MayNovember Shopify Store",
-      category: "Ecommerce, web development",
+      category: "Ecommerce - Shopify store",
       description:
         "Designed and built a fashion/apparel Shopify store for a friend. It was early days of Shopify, and I fell in love with ease and flexibility of its Liquid templates. We operated the store for about a year, and learned a ton about marketing, merchandising, inventory movement, customer service. ",
       year: "2012",
