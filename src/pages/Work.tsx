@@ -123,7 +123,7 @@ const Work = () => {
                   {
                     title: "Innovations in Commerce",
                     description: "Presented Shopify's growth features for enterprise brands.",
-                    event: "CommerceNext NYC - July 14, 2024",
+                    event: "CommerceNext Conference, NYC - July 14, 2024",
                     videoUrl: "https://www.youtube.com/embed/Vr_YMN8aJXY",
                   },
                   {
