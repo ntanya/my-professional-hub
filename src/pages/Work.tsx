@@ -65,7 +65,8 @@ const Work = () => {
                 Selected Projects
               </h1>
               <p className="font-body text-base text-muted-foreground max-w-xl mx-auto mb-8">
-                A collection of projects that showcase my approach to design, strategy, and problem-solving.
+                Curated showcase of diverse projects that showcase my technical skills, strategic thinking, leadership,
+                and problem-solving.
               </p>
               <div className="w-12 h-px bg-foreground/30 mx-auto" />
             </div>
@@ -113,7 +114,8 @@ const Work = () => {
                   Speaking Engagements
                 </h2>
                 <p className="font-body text-base text-muted-foreground max-w-xl mx-auto mb-8">
-                  Sharing ideas on design, strategy, and the future of digital experiences.
+                  I love speaking and shareing ideas, and constantly seek to perfect my communication and presentation
+                  skills.
                 </p>
                 <div className="w-12 h-px bg-foreground/30 mx-auto" />
               </div>
