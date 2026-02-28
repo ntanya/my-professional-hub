@@ -39,7 +39,7 @@ const Work = () => {
       title: "MayNovember Shopify Store",
       category: "Ecommerce - Shopify store",
       description:
-        "Designed and built a fashion/apparel Shopify store for a friend. It was early days of Shopify, and I fell in love with ease and flexibility of its Liquid templates. We operated the store for about a year, and learned a ton about marketing, merchandising, inventory movement, customer service. ",
+        "Designed and built a fashion/apparel Shopify store for my friend, as her birthday gift. It was early days of Shopify, and I fell in love with power and flexibility of its Liquid templates. We operated the store for about a year, and learned a ton about marketing, merchandising, inventory movement, customer service. ",
       year: "2012",
       image: "/may-november.jpg",
     },
