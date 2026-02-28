@@ -25,11 +25,10 @@ const About = () => {
     {
       name: "Normandy, France",
       image: "https://images.unsplash.com/photo-1560717789-0ac7c58ac90a?w=800",
-      description:
-        "Windswept coastlines, historic charm, and the best butter in the world. A place that moves slowly and beautifully.",
+      description: "Windswept coastlines, historic charm, oysters, and the best butter in the world.",
     },
     {
-      name: "Georgia",
+      name: "Kakhetia and Kazbek, Georgia",
       image: "https://images.unsplash.com/photo-1565008576549-57569a49371d?w=800",
       description:
         "Ancient winemaking traditions, stunning Caucasus mountains, and hospitality that rivals my homeland.",
@@ -37,7 +36,7 @@ const About = () => {
     {
       name: "Copenhagen, Denmark",
       image: "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=800",
-      description: "Design excellence at every corner. Hygge culture, cycling, and the world's best restaurants.",
+      description: "Design excellence at every corner. Hygge culture, delicious bread, river swimming.",
     },
     {
       name: "Iceland",
@@ -140,11 +139,7 @@ const About = () => {
               </div>
 
               <div className="border border-border overflow-hidden">
-                <img
-                  src="/about-portrait.jpg"
-                  alt="Portrait photo"
-                  className="w-full h-full object-cover"
-                />
+                <img src="/about-portrait.jpg" alt="Portrait photo" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>
