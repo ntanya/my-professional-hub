@@ -43,7 +43,7 @@ const Resume = () => {
     "Technical sales",
     "Ecommerce / ERP / OMS integrations",
     "APIs",
-    "System design",
+    "Systems design",
     "Business communication",
     "Public speaking",
     "C-Suite stakeholder management",
