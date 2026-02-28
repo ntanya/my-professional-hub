@@ -114,7 +114,7 @@ const Work = () => {
                   Speaking Engagements
                 </h2>
                 <p className="font-body text-base text-muted-foreground max-w-xl mx-auto mb-8">
-                  I love speaking and shareing ideas, and constantly seek to perfect my communication and presentation
+                  I love speaking and sharing ideas, and constantly seek to perfect my communication and presentation
                   skills.
                 </p>
                 <div className="w-12 h-px bg-foreground/30 mx-auto" />
