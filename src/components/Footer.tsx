@@ -3,10 +3,8 @@ import { Mail, Phone, MapPin, Linkedin, Twitter, Github, Dribbble } from "lucide
 
 const Footer = () => {
   const socialLinks = [
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/tanyanam/", label: "LinkedIn" },
     { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Github, href: "#", label: "GitHub" },
-    { icon: Dribbble, href: "#", label: "Dribbble" },
   ];
 
   const contactInfo = [
