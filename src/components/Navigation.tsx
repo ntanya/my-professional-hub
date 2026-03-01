@@ -39,7 +39,7 @@ const Navigation = () => {
             to="/"
             className="font-display text-2xl italic text-foreground hover:opacity-70 transition-opacity duration-300"
           >
-            JD
+            TN
           </Link>
 
           {/* Desktop Navigation */}
