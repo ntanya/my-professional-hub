@@ -10,9 +10,8 @@ const Footer = () => {
   ];
 
   const contactInfo = [
-    { icon: Mail, text: "hello@johndoe.com", href: "mailto:hello@johndoe.com" },
-    { icon: Phone, text: "+1 (555) 123-4567", href: "tel:+15551234567" },
-    { icon: MapPin, text: "San Francisco, CA", href: "#" },
+    { icon: Mail, text: "hello@tanyanam.com", href: "mailto:hello@tanyanam.com" },
+    { icon: MapPin, text: "New York, NY", href: "#" },
   ];
 
   const navLinks = [
@@ -29,11 +28,9 @@ const Footer = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-16 mb-16">
             {/* Brand & Tagline */}
             <div className="lg:col-span-1">
-              <h3 className="font-display text-3xl italic mb-6">John Doe</h3>
-              <p className="font-body text-sm text-background/60 leading-relaxed mb-8">
-                Creating meaningful digital experiences that connect people and drive results.
-              </p>
-              
+              <h3 className="font-display text-3xl italic mb-6">Tanya Nam</h3>
+              <p className="font-body text-sm text-background/60 leading-relaxed mb-8"></p>
+
               {/* Social Links */}
               <div className="flex gap-4">
                 {socialLinks.map((social, index) => (
@@ -86,12 +83,8 @@ const Footer = () => {
           {/* Bottom Bar */}
           <div className="pt-8 border-t border-background/10">
             <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-              <p className="font-body text-xs text-background/40 tracking-wide">
-                © {new Date().getFullYear()} John Doe. All rights reserved.
-              </p>
-              <p className="font-body text-xs text-background/40 tracking-wide">
-                Designed & Built with care
-              </p>
+              <p className="font-body text-xs text-background/40 tracking-wide">© {new Date().getFullYear()}</p>
+              <p className="font-body text-xs text-background/40 tracking-wide"></p>
             </div>
           </div>
         </div>
