@@ -8,7 +8,7 @@ const Footer = () => {
   ];
 
   const contactInfo = [
-    { icon: Mail, text: "hello@tanyanam.com", href: "mailto:hello@tanyanam.com" },
+    { icon: Mail, text: "ntanya@gmail.com", href: "mailto:ntanya@gmail.com" },
     { icon: MapPin, text: "New York, NY", href: "#" },
   ];
 
