@@ -33,7 +33,7 @@ const Work = () => {
       description:
         "I made a pivot in my career journey after burning out from my VP role. I started writing on Instagram about living in NYC as a Russian-speaking immigrant and built an audience of 20K followers. This led to me collaborating with a copywriting school, and I worked as a writing coach for women. I also worked as a freelancer for 1.5 years.",
       year: "2019",
-      image: "/tanya-ny.jpg",
+      image: `${import.meta.env.BASE_URL}tanya-ny.jpg`,
     },
     {
       title: "MayNovember Shopify Store",
