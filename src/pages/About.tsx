@@ -81,7 +81,7 @@ const About = () => {
     {
       title: "The Art of Spending Money",
       author: "Morgan Housel",
-      cover: "/book-art-of-spending-money.jpg",
+      cover: `${import.meta.env.BASE_URL}book-art-of-spending-money.jpg`,
       recommendation: "Insights on spending with intention. A guide to aligning money with values.",
     },
     {
