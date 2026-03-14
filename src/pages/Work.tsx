@@ -25,7 +25,7 @@ const Work = () => {
       description:
         "Through my kids' school I met a wonderful parent, who ran a small business providing home-made, healthy meals as a service. I've built them a custom Shopify store that allows meal selection and subscription, using automation and metaobjects for weekly menus.",
       year: "2023",
-      image: "/my-happy-tummy.webp",
+      image: `${import.meta.env.BASE_URL}my-happy-tummy.webp`,
     },
     {
       title: "Writing & audience building",
