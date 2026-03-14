@@ -62,7 +62,7 @@ const About = () => {
     {
       title: "The Anthology of Balaji",
       author: "Eric Jorgenson",
-      cover: "/book-anthology-of-balaji.jpg",
+      cover: `${import.meta.env.BASE_URL}book-anthology-of-balaji.jpg`,
       recommendation:
         "Frameworks on technology and the future of society. Essential for understanding where we're headed.",
     },
