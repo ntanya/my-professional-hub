@@ -17,7 +17,7 @@ const Work = () => {
       description:
         "The most technically complex and interesting opportunity - the largest book retailer in the US, with over 12M books in their active catalog. I built a proof-of-concept to test the rate of inserts and updates of products, integrations with backend systems, presented storefront and search considerations and recommended technical architecture. ",
       year: "2023",
-      image: "/bookstore.jpg",
+      image: `${import.meta.env.BASE_URL}bookstore.jpg`,
     },
     {
       title: "My Happy Tummy Club",
