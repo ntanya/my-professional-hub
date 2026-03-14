@@ -62,7 +62,7 @@ const About = () => {
     {
       title: "The Anthology of Balaji",
       author: "Eric Jorgenson",
-      cover: "/book-anthology-of-balaji.jpg",
+      cover: `${import.meta.env.BASE_URL}book-anthology-of-balaji.jpg`,
       recommendation:
         "Frameworks on technology and the future of society. Essential for understanding where we're headed.",
     },
@@ -81,7 +81,7 @@ const About = () => {
     {
       title: "The Art of Spending Money",
       author: "Morgan Housel",
-      cover: "/book-art-of-spending-money.jpg",
+      cover: `${import.meta.env.BASE_URL}book-art-of-spending-money.jpg`,
       recommendation: "Insights on spending with intention. A guide to aligning money with values.",
     },
     {
@@ -135,7 +135,7 @@ const About = () => {
               </div>
 
               <div className="border border-border overflow-hidden">
-                <img src="/about-portrait.jpg" alt="Portrait photo" className="w-full h-full object-cover" />
+                <img src={`${import.meta.env.BASE_URL}about-portrait.jpg`} alt="Portrait photo" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>

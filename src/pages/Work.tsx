@@ -9,7 +9,7 @@ const Work = () => {
       description:
         "One of my favorite success stories while at Shopify - working with the most amazing, smart, open-minded and hard-working team at ALDO. We went to meet them in Montreal, and ran a series of workshops over 2 days to understand their business. In under 9 months, ALDO moved 3 of their brands to Shopify's enterprise plan from SAP.",
       year: "2024",
-      image: "/aldo-team.jpg",
+      image: `${import.meta.env.BASE_URL}aldo-team.jpg`,
     },
     {
       title: "Book retailer - Shopify migration",
@@ -17,7 +17,7 @@ const Work = () => {
       description:
         "The most technically complex and interesting opportunity - the largest book retailer in the US, with over 12M books in their active catalog. I built a proof-of-concept to test the rate of inserts and updates of products, integrations with backend systems, presented storefront and search considerations and recommended technical architecture. ",
       year: "2023",
-      image: "/bookstore.jpg",
+      image: `${import.meta.env.BASE_URL}bookstore.jpg`,
     },
     {
       title: "My Happy Tummy Club",
@@ -25,7 +25,7 @@ const Work = () => {
       description:
         "Through my kids' school I met a wonderful parent, who ran a small business providing home-made, healthy meals as a service. I've built them a custom Shopify store that allows meal selection and subscription, using automation and metaobjects for weekly menus.",
       year: "2023",
-      image: "/my-happy-tummy.webp",
+      image: `${import.meta.env.BASE_URL}my-happy-tummy.webp`,
     },
     {
       title: "Writing & audience building",
@@ -33,7 +33,7 @@ const Work = () => {
       description:
         "I made a pivot in my career journey after burning out from my VP role. I started writing on Instagram about living in NYC as a Russian-speaking immigrant and built an audience of 20K followers. This led to me collaborating with a copywriting school, and I worked as a writing coach for women. I also worked as a freelancer for 1.5 years.",
       year: "2019",
-      image: "/tanya-ny.jpg",
+      image: `${import.meta.env.BASE_URL}tanya-ny.jpg`,
     },
     {
       title: "MayNovember Shopify Store",
@@ -41,7 +41,7 @@ const Work = () => {
       description:
         "Designed and built a fashion/apparel Shopify store for my friend, as her birthday gift. It was early days of Shopify, and I fell in love with power and flexibility of its Liquid templates. We operated the store for about a year, and learned a ton about marketing, merchandising, inventory movement, customer service. ",
       year: "2012",
-      image: "/may-november.jpg",
+      image: `${import.meta.env.BASE_URL}may-november.jpg`,
     },
     {
       title: "Bantam Bagels",
@@ -49,7 +49,7 @@ const Work = () => {
       description:
         "Earlier in my career I worked as a freelance software developer. Through friends, I met a husband-wife couple who left their high-paying careers on Wall Street to start a bagel business. I've built them a Wordpress site with e-commerce functionality. Later, they went on being very successful - raised money on Shark Tank with Lori Greiner and achieved nationwide distribution and growth.",
       year: "2013",
-      image: "/bagels.webp",
+      image: `${import.meta.env.BASE_URL}bagels.webp`,
     },
   ];
 
