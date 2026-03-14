@@ -135,7 +135,7 @@ const About = () => {
               </div>
 
               <div className="border border-border overflow-hidden">
-                <img src="/about-portrait.jpg" alt="Portrait photo" className="w-full h-full object-cover" />
+                <img src={`${import.meta.env.BASE_URL}about-portrait.jpg`} alt="Portrait photo" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>

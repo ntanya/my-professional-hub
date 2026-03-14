@@ -49,7 +49,7 @@ const Work = () => {
       description:
         "Earlier in my career I worked as a freelance software developer. Through friends, I met a husband-wife couple who left their high-paying careers on Wall Street to start a bagel business. I've built them a Wordpress site with e-commerce functionality. Later, they went on being very successful - raised money on Shark Tank with Lori Greiner and achieved nationwide distribution and growth.",
       year: "2013",
-      image: "/bagels.webp",
+      image: `${import.meta.env.BASE_URL}bagels.webp`,
     },
   ];
 
