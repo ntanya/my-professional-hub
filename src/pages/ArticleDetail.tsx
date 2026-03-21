@@ -1,6 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import { Calendar, Clock, ArrowLeft, User } from "lucide-react";
 import ReactMarkdown from "react-markdown";
+import rehypeRaw from "rehype-raw";
 import Layout from "@/components/Layout";
 import { getArticleBySlug } from "@/lib/articles";
 
