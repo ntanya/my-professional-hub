@@ -1,7 +1,7 @@
 ---
-title: "Shopify — A Very Special Place and Time"
-description: "A reflection on 4.5 transformative years at Shopify — building, growing, and making the impossible possible."
-date: "2025-03-01"
+title: "Shopify: A Very Special Place and Time"
+description: "A reflection on 4.5 transformative years at Shopify — building, growing, and helping brands move to modern commerce."
+date: "2026-03-01"
 author: "Tanya Nam"
 category: "Career"
 featured: true
