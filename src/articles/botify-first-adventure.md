@@ -49,6 +49,8 @@ The whole crew — we went through the dark times of COVID together and came out
 
 I won the Best Botifyer award. Made great friends in sales, engineering, marketing, professional services, CSMs (hi all! Too many to name!). Surprised Frank with a personalized birthday video from the legend of football & UHND.
 
+![Botifyer of the Quarter - Q4 2020](/images/botify-botifyer-award.png)
+
 ---
 
 Connecting all of these dots (product + craft + people) years later, makes me appreciate my time at Botify and everything I've learned there.
