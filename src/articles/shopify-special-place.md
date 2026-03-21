@@ -1,5 +1,5 @@
 ---
-title: "Shopify: A Very Special Place and Time"
+title: "Shopify: from Plus to Enterprise"
 description: "A reflection on 4.5 transformative years at Shopify — building, growing, and helping brands move to modern commerce."
 date: "2026-03-01"
 author: "Tanya Nam"
