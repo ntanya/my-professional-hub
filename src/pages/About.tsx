@@ -20,33 +20,33 @@ const About = () => {
   const favoritePlaces = [
     {
       name: "Normandy, France",
-      image: "https://images.unsplash.com/photo-1560717789-0ac7c58ac90a?w=800",
+      image: `${import.meta.env.BASE_URL}images/place-normandy.jpg`,
       description: "Windswept coastlines, historic charm, oysters, and the best butter in the world.",
     },
     {
       name: "Kakhetia and Kazbek, Georgia",
-      image: "https://images.unsplash.com/photo-1565008576549-57569a49371d?w=800",
+      image: `${import.meta.env.BASE_URL}images/place-georgia.jpg`,
       description:
         "Ancient winemaking traditions, stunning Caucasus mountains, and hospitality that rivals my homeland.",
     },
     {
       name: "Copenhagen, Denmark",
-      image: "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=800",
+      image: `${import.meta.env.BASE_URL}images/place-copenhagen.jpg`,
       description: "Design excellence at every corner. Hygge culture, delicious bread, river swimming.",
     },
     {
       name: "Iceland",
-      image: "https://images.unsplash.com/photo-1504893524553-b855bce32c67?w=800",
+      image: `${import.meta.env.BASE_URL}images/place-iceland.jpg`,
       description: "Raw, untamed nature. Glaciers, geysers, and the Northern Lights remind you how small we are.",
     },
     {
       name: "Santorini, Greece",
-      image: "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=800",
+      image: `${import.meta.env.BASE_URL}images/place-santorini.jpg`,
       description: "Blue domes, white walls, and sunsets that stop time. Mediterranean beauty at its peak.",
     },
     {
       name: "Southern Kazakhstan",
-      image: "https://images.unsplash.com/photo-1530841377377-3ff06c0ca713?w=800",
+      image: `${import.meta.env.BASE_URL}images/place-kazakhstan.jpg`,
       description: "My roots. The Tian-Shan mountains, endless hospitality, and the taste of home-cooked plov.",
     },
   ];
