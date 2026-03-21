@@ -2,7 +2,7 @@
 title: "Building Design Systems That Scale"
 description: "Lessons learned from creating and maintaining design systems at companies of all sizes, from startups to enterprise."
 date: "2024-01-08"
-author: "John Doe"
+author: "Tanya Nam"
 category: "Strategy"
 ---
 
