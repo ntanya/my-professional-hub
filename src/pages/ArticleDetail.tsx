@@ -104,7 +104,17 @@ const ArticleDetail = () => {
               prose-pre:bg-foreground prose-pre:text-background prose-pre:rounded-xl prose-pre:p-6
               prose-img:rounded-xl prose-img:shadow-card
             ">
-              <ReactMarkdown>{article.content}</ReactMarkdown>
+              <ReactMarkdown
+                components={{
+                  img: ({ src, alt, ...props }) => {
+                    const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+                    const resolvedSrc = src && src.startsWith('/') ? `${base}${src}` : src;
+                    return <img src={resolvedSrc} alt={alt || ''} {...props} />;
+                  }
+                }}
+              >
+                {article.content}
+              </ReactMarkdown>
             </div>
           </div>
         </div>
