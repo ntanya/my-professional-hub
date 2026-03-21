@@ -31,6 +31,10 @@ I went to the two first President Clubs in company's history. Surfed with the CR
 
 ![Shopify Builders Club](/images/shopify-builders-club.png)
 
+![President Club — Costa Rica beach vibes](/images/shopify-costa-rica.jpg)
+
+![The crew at the beach](/images/shopify-beach-team.jpg)
+
 Made lifelong friendships.
 
 ![Friends at the Sphere](/images/shopify-friends-sphere.jpg)
@@ -39,6 +43,8 @@ Made lifelong friendships.
 
 ![Tea time with the crew](/images/shopify-friends-tea.jpg)
 
+![With a fellow Shopifolk](/images/shopify-friends-selfie.jpg)
+
 Presented on stages small and big.
 
 ![Shopify Summit stage](/images/shopify-summit-stage.jpg)
@@ -46,6 +52,10 @@ Presented on stages small and big.
 ![Shoptalk badge and memories](/images/shopify-shoptalk-badge.jpg)
 
 ![SE Performances — Impact at Shopify](/images/shopify-impact.png)
+
+![The badge collection](/images/shopify-badges-collection.jpg)
+
+![Shopify event badges — Summit, Shopifolk, and more](/images/shopify-event-badges.jpg)
 
 Learned from the very best in their field.
 
