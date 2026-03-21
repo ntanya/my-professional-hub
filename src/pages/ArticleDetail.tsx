@@ -106,6 +106,7 @@ const ArticleDetail = () => {
               prose-img:rounded-xl prose-img:shadow-card
             ">
               <ReactMarkdown
+                rehypePlugins={[rehypeRaw]}
                 components={{
                   img: ({ src, alt, ...props }) => {
                     const base = import.meta.env.BASE_URL.replace(/\/$/, '');
