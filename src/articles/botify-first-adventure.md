@@ -1,6 +1,6 @@
 ---
 title: "Botify: My First Adventure in Technical Sales"
-description: "Working at Botify as Solutions Engineer"
+description: "Finding my perfect career match in the world of Solutions / Presales"
 date: "2026-02-01"
 author: "Tanya Nam"
 category: "Career"
