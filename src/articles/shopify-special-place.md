@@ -53,9 +53,10 @@ Presented on stages small and big.
 
 ![SE Performances — Impact at Shopify](/images/shopify-impact.png)
 
-![The badge collection](/images/shopify-badges-collection.jpg)
-
-![Shopify event badges — Summit, Shopifolk, and more](/images/shopify-event-badges.jpg)
+<div class="not-prose grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+  <img src="/images/shopify-badges-collection.jpg" alt="The badge collection" class="rounded-xl shadow-sm w-full h-auto" />
+  <img src="/images/shopify-event-badges.jpg" alt="Shopify event badges — Summit, Shopifolk, and more" class="rounded-xl shadow-sm w-full h-auto" />
+</div>
 
 Learned from the very best in their field.
 
