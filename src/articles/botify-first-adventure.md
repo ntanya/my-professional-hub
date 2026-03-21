@@ -1,5 +1,5 @@
 ---
-title: "Botify - My First Adventure in Technical Sales"
+title: "Botify: My First Adventure in Technical Sales"
 description: "Working at Botify as Solutions Engineer"
 date: "2026-02-01"
 author: "Tanya Nam"
@@ -19,7 +19,7 @@ That was Botify for me. A perfect first serious relationship with SaaS sales.
 
 ## Why?
 
-**The product is excellent.** If you are serious about SEO (and have some budget) — you should use Botify.
+**The product is best in class.** If you are serious about SEO (and have budget) — you should use Botify.
 
 The product team led by Christophe was incredible. I remember being so impressed in one of the early weekly product update calls. And he kept delivering. SpeedWorkers (a very technical Javascript optimization engine) was launched during my tenure and it was truly a game-changer.
 
@@ -48,8 +48,6 @@ The whole crew — we went through the dark times of COVID together and came out
 ![The Botify team at the booth](/images/botify-booth.jpg)
 
 I won the Best Botifyer award. Made great friends in sales, engineering, marketing, professional services, CSMs (hi all! Too many to name!). Surprised Frank with a personalized birthday video from the legend of football & UHND.
-
-![Botifyer of the Quarter - Q4 2020](/images/botify-botifyer-award.png)
 
 ---
 
