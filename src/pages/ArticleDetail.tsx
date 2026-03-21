@@ -115,7 +115,7 @@ const ArticleDetail = () => {
                   }
                 }}
               >
-                {article.content}
+                {article.content.replace(/src="\/images\//g, `src="${import.meta.env.BASE_URL.replace(/\/$/, '')}/images/`)}
               </ReactMarkdown>
             </div>
           </div>
