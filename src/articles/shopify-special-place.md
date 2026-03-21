@@ -39,11 +39,10 @@ I went to the two first President Clubs in company's history. Surfed with the CR
 
 Made lifelong friendships.
 
-<div class="not-prose grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 my-6">
+<div class="not-prose grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
   <img src="/images/shopify-friends-sphere.jpg" alt="Friends at the Sphere" class="rounded-lg shadow-sm w-full h-64 object-cover" />
   <img src="/images/shopify-friends-watermelon.jpg" alt="Good times with friends" class="rounded-lg shadow-sm w-full h-64 object-cover" />
   <img src="/images/shopify-friends-selfie.jpg" alt="With a fellow Shopifolk" class="rounded-lg shadow-sm w-full h-64 object-cover" />
-  <img src="/images/shopify-friends-group.jpg" alt="Group photo with friends" class="rounded-lg shadow-sm w-full h-64 object-cover" />
 </div>
 
 ![Friends in Ottawa — birthday celebration](/images/shopify-friends-ottawa.jpg)
