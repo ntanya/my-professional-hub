@@ -57,9 +57,10 @@ Presented on stages small and big.
 
 ![Shopify Summit stage](/images/shopify-summit-stage.jpg)
 
-![Presentation slide — Staff Solutions Engineer](/images/shopify-presentation-slide.jpg)
-
-![On stage at CommerceNext](/images/shopify-commercenext-stage.jpg)
+<div class="not-prose grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+  <img src="/images/shopify-presentation-slide.jpg" alt="Presentation slide — Staff Solutions Engineer" class="rounded-xl shadow-sm w-full h-auto object-cover" />
+  <img src="/images/shopify-commercenext-stage.jpg" alt="On stage at CommerceNext" class="rounded-xl shadow-sm w-full h-auto object-cover" />
+</div>
 
 ![SE Performances — Impact at Shopify](/images/shopify-impact.png)
 
