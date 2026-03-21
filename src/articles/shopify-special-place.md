@@ -40,9 +40,9 @@ I went to the two first President Clubs in company's history. Surfed with the CR
 Made lifelong friendships.
 
 <div class="not-prose grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
-  <img src="/images/shopify-friends-sphere.jpg" alt="Friends at the Sphere" class="rounded-xl shadow-sm w-full h-auto" />
-  <img src="/images/shopify-friends-watermelon.jpg" alt="Good times with friends" class="rounded-xl shadow-sm w-full h-auto" />
-  <img src="/images/shopify-friends-selfie.jpg" alt="With a fellow Shopifolk" class="rounded-xl shadow-sm w-full h-auto" />
+  <img src="/images/shopify-friends-sphere.jpg" alt="Friends at the Sphere" class="rounded-lg shadow-sm w-full h-64 object-cover" />
+  <img src="/images/shopify-friends-watermelon.jpg" alt="Good times with friends" class="rounded-lg shadow-sm w-full h-64 object-cover" />
+  <img src="/images/shopify-friends-selfie.jpg" alt="With a fellow Shopifolk" class="rounded-lg shadow-sm w-full h-64 object-cover" />
 </div>
 
 ![Friends in Ottawa — birthday celebration](/images/shopify-friends-ottawa.jpg)
@@ -54,14 +54,14 @@ Made lifelong friendships.
 Presented on stages small and big.
 
 <div class="not-prose grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
-  <img src="/images/shopify-presentation-slide.jpg" alt="Presentation slide — Staff Solutions Engineer" class="rounded-xl shadow-sm w-full h-auto object-cover" />
-  <img src="/images/shopify-commercenext-stage.jpg" alt="On stage at CommerceNext" class="rounded-xl shadow-sm w-full h-auto object-cover" />
+  <img src="/images/shopify-presentation-slide.jpg" alt="Presentation slide — Staff Solutions Engineer" class="rounded-lg shadow-sm w-full h-72 object-cover" />
+  <img src="/images/shopify-commercenext-stage.jpg" alt="On stage at CommerceNext" class="rounded-lg shadow-sm w-full h-72 object-cover" />
 </div>
 
 <div class="not-prose grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
-  <img src="/images/shopify-shoptalk-badge.jpg" alt="Shoptalk badge and memories" class="rounded-xl shadow-sm w-full h-auto" />
-  <img src="/images/shopify-badges-collection.jpg" alt="The badge collection" class="rounded-xl shadow-sm w-full h-auto" />
-  <img src="/images/shopify-event-badges.jpg" alt="Shopify event badges — Summit, Shopifolk, and more" class="rounded-xl shadow-sm w-full h-auto" />
+  <img src="/images/shopify-shoptalk-badge.jpg" alt="Shoptalk badge and memories" class="rounded-lg shadow-sm w-full h-64 object-cover" />
+  <img src="/images/shopify-badges-collection.jpg" alt="The badge collection" class="rounded-lg shadow-sm w-full h-64 object-cover" />
+  <img src="/images/shopify-event-badges.jpg" alt="Shopify event badges — Summit, Shopifolk, and more" class="rounded-lg shadow-sm w-full h-64 object-cover" />
 </div>
 
 Learned from the very best in their field.
