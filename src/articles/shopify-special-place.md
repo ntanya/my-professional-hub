@@ -49,11 +49,10 @@ Presented on stages small and big.
 
 ![Shopify Summit stage](/images/shopify-summit-stage.jpg)
 
-![Shoptalk badge and memories](/images/shopify-shoptalk-badge.jpg)
-
 ![SE Performances — Impact at Shopify](/images/shopify-impact.png)
 
-<div class="not-prose grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+<div class="not-prose grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
+  <img src="/images/shopify-shoptalk-badge.jpg" alt="Shoptalk badge and memories" class="rounded-xl shadow-sm w-full h-auto" />
   <img src="/images/shopify-badges-collection.jpg" alt="The badge collection" class="rounded-xl shadow-sm w-full h-auto" />
   <img src="/images/shopify-event-badges.jpg" alt="Shopify event badges — Summit, Shopifolk, and more" class="rounded-xl shadow-sm w-full h-auto" />
 </div>
