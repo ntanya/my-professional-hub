@@ -35,7 +35,7 @@ Then I applied what I learned. Bombed my first demo in front of a dozen people. 
 
 ## The people.
 
-It was my first time working with a French-US team, and it was a beautiful union.
+It was my first time working with a French-US team, and it was a great union of R&D, sales, support across time zones and continents.
 
 Had beers with the whole C-suite during my first weeks. Adrien, Thomas, Stan — the trio of brilliant founders, CPO Christophe and his product vision... everyone so easy to connect with and talk on Slack, video or in-person. Stan sent me the warmest message when I was leaving Botify.
 
@@ -47,7 +47,7 @@ The whole crew — we went through the dark times of COVID together and came out
 
 ![The Botify team at the booth](/images/botify-booth.jpg)
 
-I won the Best Botifyer award. Made great friends in sales, engineering, marketing, professional services, CSMs (hi all! Too many to name!). Surprised Frank with a personalized birthday video from the legend of football & UHND.
+I won the top Botifyer award. Made great friends in sales, engineering, marketing, professional services, CSMs (hi all! Too many to name!). Surprised Frank with a personalized birthday video from the legend of football & UHND.
 
 ---
 
