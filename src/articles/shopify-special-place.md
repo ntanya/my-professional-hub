@@ -13,7 +13,7 @@ Shopify challenged me to build and grow. Like Tom Cruise, I was handed a file wi
 
 ## Shopify trusted me. Shopify gave me:
 
-**Autonomy**, empowerment to build, and tolerance for small mistakes along the way.
+**Autonomy, empowerment to build**, and tolerance for small mistakes along the way.
 
 **Exceptional product**, that's a delight to use.
 
@@ -39,7 +39,7 @@ I went to the two first President Clubs in company's history. Surfed with the CR
 
 ![The crew at President Club — Costa Rica](/images/shopify-costa-rica-group.jpg)
 
-Made lifelong friendships.
+Made friendships for life.
 
 <div class="not-prose grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
   <img src="/images/shopify-friends-sphere.jpg" alt="Friends at the Sphere" class="rounded-lg shadow-sm w-full h-64 object-cover" />
