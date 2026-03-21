@@ -43,11 +43,23 @@ Made lifelong friendships.
   <img src="/images/shopify-friends-selfie.jpg" alt="With a fellow Shopifolk" class="rounded-xl shadow-sm w-full h-auto" />
 </div>
 
+![Friends in Ottawa — birthday celebration](/images/shopify-friends-ottawa.jpg)
+
+![Dinner with the crew](/images/shopify-friends-dinner.jpg)
+
 ![Tea time with the crew](/images/shopify-friends-tea.jpg)
+
+![Toronto skyline from the water](/images/shopify-toronto-skyline.jpg)
+
+![Make Commerce Better for Everyone](/images/shopify-make-commerce.jpg)
 
 Presented on stages small and big.
 
 ![Shopify Summit stage](/images/shopify-summit-stage.jpg)
+
+![Presentation slide — Staff Solutions Engineer](/images/shopify-presentation-slide.jpg)
+
+![On stage at CommerceNext](/images/shopify-commercenext-stage.jpg)
 
 ![SE Performances — Impact at Shopify](/images/shopify-impact.png)
 
