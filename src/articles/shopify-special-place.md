@@ -54,8 +54,8 @@ Made lifelong friendships.
 Presented on stages small and big.
 
 <div class="not-prose grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
-  <img src="/images/shopify-presentation-slide.jpg" alt="Presentation slide — Staff Solutions Engineer" class="rounded-xl shadow-sm w-full h-auto object-cover" />
-  <img src="/images/shopify-commercenext-stage.jpg" alt="On stage at CommerceNext" class="rounded-xl shadow-sm w-full h-auto object-cover" />
+  <img src="/images/shopify-presentation-slide.jpg" alt="Presentation slide — Staff Solutions Engineer" class="rounded-lg shadow-sm w-full h-72 object-cover" />
+  <img src="/images/shopify-commercenext-stage.jpg" alt="On stage at CommerceNext" class="rounded-lg shadow-sm w-full h-72 object-cover" />
 </div>
 
 <div class="not-prose grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
