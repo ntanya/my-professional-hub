@@ -47,7 +47,7 @@ The whole crew — we went through the dark times of COVID together and came out
 
 ![The Botify team at the booth](/images/botify-booth.jpg)
 
-I won the top Botifyer award. Made great friends in sales, engineering, marketing, professional services, CSMs (hi all! Too many to name!). Surprised Frank with a personalized birthday video from the legend of football & UHND.
+I won the top Botifyer award. Made great friends in sales, engineering, marketing, professional services, CSMs. Surprised Frank with a personalized birthday video from the legend of football & UHND.
 
 ![Botifyer of the Quarter - Q4 2020](/images/botify-botifyer-award.png)
 
