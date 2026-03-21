@@ -31,7 +31,7 @@ const Index = () => {
               className="font-body text-base text-muted-foreground max-w-xl mx-auto mb-14 animate-slide-up text-balance leading-relaxed"
               style={{ animationDelay: "0.2s" }}
             >
-              Technical builder + friendly, clear communicator. Connecting world-class products with companies that
+              Technical builder + concise, clear communicator. Connecting world-class products with companies that
               deserve to thrive.
             </p>
 
