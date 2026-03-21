@@ -37,6 +37,8 @@ I went to the two first President Clubs in company's history. Surfed with the CR
 
 ![The crew at the beach](/images/shopify-beach-team.jpg)
 
+![The crew at President Club — Costa Rica](/images/shopify-costa-rica-group.jpg)
+
 Made lifelong friendships.
 
 <div class="not-prose grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
