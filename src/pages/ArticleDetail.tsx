@@ -110,12 +110,12 @@ const ArticleDetail = () => {
                 components={{
                   img: ({ src, alt, ...props }) => {
                     const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-                    const resolvedSrc = src && src.startsWith('/') ? `${base}${src}` : src;
+                    const resolvedSrc = src && src.startsWith('/') && !src.startsWith(base + '/') ? `${base}${src}` : src;
                     return <img src={resolvedSrc} alt={alt || ''} {...props} />;
                   }
                 }}
               >
-                {article.content.replace(/src="\/images\//g, `src="${import.meta.env.BASE_URL.replace(/\/$/, '')}/images/`)}
+                {article.content}
               </ReactMarkdown>
             </div>
           </div>
