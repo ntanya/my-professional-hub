@@ -37,13 +37,13 @@ I went to the two first President Clubs in company's history. Surfed with the CR
 
 Made lifelong friendships.
 
-![Friends at the Sphere](/images/shopify-friends-sphere.jpg)
-
-![Good times with friends](/images/shopify-friends-watermelon.jpg)
+<div class="not-prose grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
+  <img src="/images/shopify-friends-sphere.jpg" alt="Friends at the Sphere" class="rounded-xl shadow-sm w-full h-auto" />
+  <img src="/images/shopify-friends-watermelon.jpg" alt="Good times with friends" class="rounded-xl shadow-sm w-full h-auto" />
+  <img src="/images/shopify-friends-selfie.jpg" alt="With a fellow Shopifolk" class="rounded-xl shadow-sm w-full h-auto" />
+</div>
 
 ![Tea time with the crew](/images/shopify-friends-tea.jpg)
-
-![With a fellow Shopifolk](/images/shopify-friends-selfie.jpg)
 
 Presented on stages small and big.
 
