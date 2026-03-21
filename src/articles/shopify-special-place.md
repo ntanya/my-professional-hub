@@ -25,6 +25,8 @@ On my parting day, my manager Nick told me that I can still put this on my Linke
 
 ![SE Hall of Fame — Lifetime Revenue Leaderboard](/images/shopify-leaderboard.png)
 
+![SE Performances — Impact at Shopify](/images/shopify-impact.png)
+
 I was one of the few SEs selected for the first core strategic/enterprise global team. I closed/won customers that launched successfully, grew their business on Shopify, and became fantastic references.
 
 I went to the two first President Clubs in company's history. Surfed with the CRO. Swam with sharks. Got the best $40 massages on the beach that felt like paradise.
@@ -49,20 +51,12 @@ Made lifelong friendships.
 
 ![Tea time with the crew](/images/shopify-friends-tea.jpg)
 
-![Toronto skyline from the water](/images/shopify-toronto-skyline.jpg)
-
-![Make Commerce Better for Everyone](/images/shopify-make-commerce.jpg)
-
 Presented on stages small and big.
-
-![Shopify Summit stage](/images/shopify-summit-stage.jpg)
 
 <div class="not-prose grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
   <img src="/images/shopify-presentation-slide.jpg" alt="Presentation slide — Staff Solutions Engineer" class="rounded-xl shadow-sm w-full h-auto object-cover" />
   <img src="/images/shopify-commercenext-stage.jpg" alt="On stage at CommerceNext" class="rounded-xl shadow-sm w-full h-auto object-cover" />
 </div>
-
-![SE Performances — Impact at Shopify](/images/shopify-impact.png)
 
 <div class="not-prose grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
   <img src="/images/shopify-shoptalk-badge.jpg" alt="Shoptalk badge and memories" class="rounded-xl shadow-sm w-full h-auto" />
@@ -75,6 +69,12 @@ Learned from the very best in their field.
 Was lucky to work with wickedly bright, caring, and hard-working partners.
 
 Cheered and celebrated my crew's wins, promotions, marriages, babies — new and old. Danced my ass off in Laguna Beach and on stage with Girltalk. Shared heartbreaks.
+
+![Make Commerce Better for Everyone](/images/shopify-make-commerce.jpg)
+
+![Shopify Summit stage](/images/shopify-summit-stage.jpg)
+
+![Toronto skyline from the water](/images/shopify-toronto-skyline.jpg)
 
 ---
 
