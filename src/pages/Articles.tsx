@@ -26,7 +26,7 @@ const Articles = () => {
                 Articles & Insights
               </h1>
               <p className="font-body text-base text-muted-foreground max-w-xl mx-auto mb-8">
-                Thoughts on design, strategy, and the creative process. Sharing what I've learned along the way.
+                Thoughts on techology, craft of presales, career growth. Sharing what I've learned along the way.
               </p>
               <div className="w-12 h-px bg-foreground/30 mx-auto" />
             </div>
