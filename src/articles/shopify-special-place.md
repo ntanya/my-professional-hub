@@ -55,6 +55,8 @@ Made lifelong friendships.
 
 ![Group photo with friends](/images/shopify-friends-group.jpg)
 
+![Friends at sunset](/images/shopify-friends-sunset.jpg)
+
 Presented on stages small and big.
 
 <div class="not-prose grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
