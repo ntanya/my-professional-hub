@@ -51,6 +51,8 @@ Made lifelong friendships.
 
 ![Tea time with the crew](/images/shopify-friends-tea.jpg)
 
+![Group photo with friends](/images/shopify-friends-group.jpg)
+
 Presented on stages small and big.
 
 <div class="not-prose grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
