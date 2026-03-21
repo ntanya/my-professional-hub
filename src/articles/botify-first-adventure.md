@@ -1,13 +1,13 @@
 ---
-title: "Botify — My First Adventure in Technical Sales"
-description: "A love letter to my first serious SaaS sales relationship — the product, the craft, and the people who made it unforgettable."
-date: "2025-02-15"
+title: "Botify - My First Adventure in Technical Sales"
+description: "Working at Botify as Solutions Engineer"
+date: "2026-02-01"
 author: "Tanya Nam"
 category: "Career"
 featured: false
 ---
 
-Botify will always and forever be my first love, in the world of Solutions and exceptional SaaS products.
+Botify will always and forever be my first love in the world of Solutions and exceptional SaaS products.
 
 Steve Jobs said that we can only connect the dots when we look back at our experience, and this is one of these cases.
 
@@ -25,7 +25,7 @@ The product team led by Christophe was incredible. I remember being so impressed
 
 ## Learning & perfecting the craft.
 
-I was lucky to learn the fundamentals of solutions selling during the Demo2Win training in London. That foundation set me up for success for years to come. I had zero bad habits (or any habits) and was taught the proper way to demo — the Don Carmichael's way. Thank you Don!
+I was lucky to learn the fundamentals of solutions selling during the Demo2Win training in London. That foundation set me up for success for years to come. I had zero bad habits (or any habits) and was taught the proper way to demo — the Don Carmichael's way.
 
 ![Demo2Win training in London](/images/botify-demo2win.jpg)
 
@@ -37,7 +37,7 @@ Then I applied what I learned. Bombed my first demo in front of a dozen people. 
 
 It was my first time working with a French-US team, and it was a beautiful union.
 
-Had beers with the whole C-suite during my first weeks. Adrien, Thomas, Stan — the trio of brilliant founders, CPO Christophe and his product vision… everyone so easy to connect with and talk on Slack, video or in-person. Stan sent me the warmest message when I was leaving Botify.
+Had beers with the whole C-suite during my first weeks. Adrien, Thomas, Stan — the trio of brilliant founders, CPO Christophe and his product vision... everyone so easy to connect with and talk on Slack, video or in-person. Stan sent me the warmest message when I was leaving Botify.
 
 ![Team dinner with the crew](/images/botify-team-dinner.jpg)
 
