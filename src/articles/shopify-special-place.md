@@ -59,9 +59,9 @@ Presented on stages small and big.
 </div>
 
 <div class="not-prose grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
-  <img src="/images/shopify-shoptalk-badge.jpg" alt="Shoptalk badge and memories" class="rounded-xl shadow-sm w-full h-auto" />
-  <img src="/images/shopify-badges-collection.jpg" alt="The badge collection" class="rounded-xl shadow-sm w-full h-auto" />
-  <img src="/images/shopify-event-badges.jpg" alt="Shopify event badges — Summit, Shopifolk, and more" class="rounded-xl shadow-sm w-full h-auto" />
+  <img src="/images/shopify-shoptalk-badge.jpg" alt="Shoptalk badge and memories" class="rounded-lg shadow-sm w-full h-64 object-cover" />
+  <img src="/images/shopify-badges-collection.jpg" alt="The badge collection" class="rounded-lg shadow-sm w-full h-64 object-cover" />
+  <img src="/images/shopify-event-badges.jpg" alt="Shopify event badges — Summit, Shopifolk, and more" class="rounded-lg shadow-sm w-full h-64 object-cover" />
 </div>
 
 Learned from the very best in their field.
