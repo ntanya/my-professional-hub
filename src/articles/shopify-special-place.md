@@ -33,7 +33,17 @@ I went to the two first President Clubs in company's history. Surfed with the CR
 
 Made lifelong friendships.
 
+![Friends at the Sphere](/images/shopify-friends-sphere.jpg)
+
+![Good times with friends](/images/shopify-friends-watermelon.jpg)
+
+![Tea time with the crew](/images/shopify-friends-tea.jpg)
+
 Presented on stages small and big.
+
+![Shopify Summit stage](/images/shopify-summit-stage.jpg)
+
+![Shoptalk badge and memories](/images/shopify-shoptalk-badge.jpg)
 
 ![SE Performances — Impact at Shopify](/images/shopify-impact.png)
 
