@@ -2,7 +2,7 @@
 title: "The Art of Minimalist Design"
 description: "Exploring how less can truly be more in digital product design, and why simplicity often leads to better user experiences."
 date: "2024-01-15"
-author: "John Doe"
+author: "Tanya Nam"
 category: "Design"
 featured: true
 ---
