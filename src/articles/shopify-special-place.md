@@ -21,7 +21,7 @@ Shopify challenged me to build and grow. Like Tom Cruise, I was handed a file wi
 
 ## Over the most fruitful and fun 4.5 years, I've built and delivered.
 
-On my parting day, my manager Nick told me that I can still put this on my LinkedIn: **top revenue contributing individual SE globally, in the lifetime of Shopify.** Is that impressive?
+On my parting day, my manager Nick told me that I can still put this on my LinkedIn: **top revenue contributing individual SE globally, in the lifetime of Shopify.** Feels strange to put it out there.
 
 ![SE Hall of Fame — Lifetime Revenue Leaderboard](/images/shopify-leaderboard.png)
 
@@ -66,7 +66,7 @@ Presented on stages small and big.
 
 Learned from the very best in their field.
 
-Was lucky to work with wickedly bright, caring, and hard-working partners.
+Was lucky to work with wickedly bright, caring, and hard-working colleagues and partners.
 
 Cheered and celebrated my crew's wins, promotions, marriages, babies — new and old. Danced my ass off in Laguna Beach and on stage with Girltalk. Shared heartbreaks.
 
