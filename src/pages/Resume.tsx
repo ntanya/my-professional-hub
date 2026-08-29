@@ -4,10 +4,18 @@ import Layout from "@/components/Layout";
 const Resume = () => {
   const experience = [
     {
+      title: "Solutions Architect, Enterprise",
+      company: "Stripe",
+      period: "Jul 2026 - Present",
+      description:
+        "Tier 1 and key accounts technical sales for Stripe’s payments, monetization, and financial services suite.",
+    },
+    {
       title: "Principal Solutions Consultant, Strategic",
       company: "Ramp",
-      period: "Feb 2026 - Present",
-      description: "Technical leadership for the revenue team for Ramp's core products.",
+      period: "Feb 2026 - Jul 2026",
+      description:
+        "Technical presales and solution design across Ramp’s core suite: enterprise corporate cards, expense management automation, accounts payable/procurement, and ERP integrations.",
     },
     {
       title: "Lead Solutions Engineer, Enterprise",
