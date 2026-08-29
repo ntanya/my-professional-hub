@@ -22,6 +22,8 @@ My current obsession is French. And learning French feels like *"une liaison pas
 
 This affair has been going on for several years, and although I can speak and feel completely at ease on my annual escapes in Paris, I still haven't wrangled *"mon petit ami français"* into complete obedience.
 
+![A couple looking at each other affectionately](/images/french-couple.jpg)
+
 This is a long intro to what I actually wanted to share: here is what I tried in language learning, what failed and what finally worked.
 
 ## What I tried
@@ -68,5 +70,7 @@ Writing was my least favorite thing when we started — you don't practice writi
 And of course, the 1-1 format is perfect since it's paced and tailored to your exact needs. We typically start with chatting about our week, then review homework (I ask for a ton of homework), then move on to the topic at hand — they always vary which is fun.
 
 Lastly, even with individual classes, you gotta have certain chemistry and enjoy your teacher. I also love Thomas because of the random personal things that he shares here and there during our classes: fun bits about his family, his weekend baking classes where he teaches how make crème brûlée (in French), and the fact that he dreams of being an honorary elected member of [Académie Française](https://en.wikipedia.org/wiki/Acad%C3%A9mie_Fran%C3%A7aise), which is THE ultimate French language guardian authority.
+
+![Crème brûlée with a spoon breaking the caramelized top](/images/creme-brulee.jpg)
 
 My affair with French is going to continue until I find my next passion. And I can already feel it: it's going to be Korean and I know exactly how to conquer him very quickly.
