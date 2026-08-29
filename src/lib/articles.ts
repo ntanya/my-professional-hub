@@ -67,6 +67,8 @@ export function getArticles(): Article[] {
     if (typeof content !== 'string') continue;
     
     const slug = getSlugFromPath(path);
+    // Skip draft/template files prefixed with underscore
+    if (slug.startsWith('_')) continue;
     const { frontmatter, body } = parseFrontmatter(content);
     
     articles.push({
