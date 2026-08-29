@@ -126,7 +126,7 @@ const About = () => {
                   customers from outdated systems into better, smarter, happier state of growth.
                 </p>
                 <p className="font-body text-base text-muted-foreground leading-relaxed">
-                  I respect companies (Ramp, Shopify, Stripe) led by founders who challenge the status quo, build with
+                  I respect companies (Stripe, Ramp, Shopify) led by founders who challenge the status quo, build with
                   taste and urgency, and create enormous value for their users.
                 </p>
                 <p className="font-body text-base text-muted-foreground leading-relaxed">
@@ -135,7 +135,11 @@ const About = () => {
               </div>
 
               <div className="border border-border overflow-hidden">
-                <img src={`${import.meta.env.BASE_URL}about-portrait.jpg`} alt="Portrait photo" className="w-full h-full object-cover" />
+                <img
+                  src={`${import.meta.env.BASE_URL}about-portrait.jpg`}
+                  alt="Portrait photo"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
@@ -150,7 +154,10 @@ const About = () => {
               </p>
               <div className="grid md:grid-cols-3 gap-6">
                 {values.map((value, index) => (
-                  <div key={index} className="border border-border p-8 text-center hover:border-foreground transition-colors duration-300">
+                  <div
+                    key={index}
+                    className="border border-border p-8 text-center hover:border-foreground transition-colors duration-300"
+                  >
                     <h3 className="font-display text-2xl italic text-foreground mb-4">{value.title}</h3>
                     <p className="font-body text-sm text-muted-foreground leading-relaxed">{value.description}</p>
                   </div>
