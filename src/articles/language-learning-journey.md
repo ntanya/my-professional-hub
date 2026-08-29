@@ -10,6 +10,8 @@ featured: false
 
 To set the scene: my native language is Russian.
 
+## How everything started
+
 My English-learning journey started with blood, sweat and tears in my first grade, when our drop-dead-gorgeous teacher, a short-haired brunette with lips glossed in shiny pink, gave an assignment: make flash cards for the words that we learned in the classroom.
 
 I had poor drawing skills at that age, and drove my grandmother crazy with demands to make sketches of a pen, a pencil, a dog and an apple, on the 3''x3'' cutout white paper squares, so I could color them.
@@ -18,11 +20,9 @@ After that emotional craft project, the first English words got forever imprinte
 
 Ever since then, I can't quit learning languages.
 
-My current obsession is French. And learning French feels like *"une liaison passionnée"*, a tumultuous affair with a capricious (albeit super fun and good-looking) lover, whereas English is your trusted, supportive, fully understood and reliable long-term partner, with whom you never have any fights.
+My current obsession is French. And learning French feels like _"une liaison passionnée"_, a tumultuous affair with a capricious (albeit super fun and good-looking) lover, whereas English is your trusted, supportive, fully understood and reliable long-term partner, with whom you never have any fights.
 
-This affair has been going on for several years, and although I can speak and feel completely at ease on my annual escapes in Paris, I still haven't wrangled *"mon petit ami français"* into complete obedience.
-
-![A couple looking at each other affectionately](/images/french-couple.jpg)
+This affair has been going on for several years, and although I can speak and feel completely at ease on my annual escapes in Paris, I still haven't wrangled _"mon petit ami français"_ into complete obedience.
 
 This is a long intro to what I actually wanted to share: here is what I tried in language learning, what failed and what finally worked.
 
@@ -70,7 +70,5 @@ Writing was my least favorite thing when we started — you don't practice writi
 And of course, the 1-1 format is perfect since it's paced and tailored to your exact needs. We typically start with chatting about our week, then review homework (I ask for a ton of homework), then move on to the topic at hand — they always vary which is fun.
 
 Lastly, even with individual classes, you gotta have certain chemistry and enjoy your teacher. I also love Thomas because of the random personal things that he shares here and there during our classes: fun bits about his family, his weekend baking classes where he teaches how make crème brûlée (in French), and the fact that he dreams of being an honorary elected member of [Académie Française](https://en.wikipedia.org/wiki/Acad%C3%A9mie_Fran%C3%A7aise), which is THE ultimate French language guardian authority.
-
-![Crème brûlée with a spoon breaking the caramelized top](/images/creme-brulee.jpg)
 
 My affair with French is going to continue until I find my next passion. And I can already feel it: it's going to be Korean and I know exactly how to conquer him very quickly.
