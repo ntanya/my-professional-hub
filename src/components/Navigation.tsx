@@ -20,6 +20,7 @@ const Navigation = () => {
     { href: "/work", label: "Work" },
     { href: "/articles", label: "Articles" },
     { href: "/resume", label: "Resume" },
+    { href: "/books", label: "Books" },
   ];
 
   const isActive = (path: string) => location.pathname === path;
