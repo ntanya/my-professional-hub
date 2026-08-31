@@ -17,6 +17,7 @@ const Footer = () => {
     { href: "/work", label: "Work" },
     // { href: "/articles", label: "Articles" },
     { href: "/resume", label: "Resume" },
+    { href: "/books", label: "Books" },
   ];
 
   return (
