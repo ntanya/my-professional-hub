@@ -1,8 +1,10 @@
 import Layout from "@/components/Layout";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 interface Book {
   title: string;
   author?: string;
+  cover?: string;
 }
 
 interface BookSection {
@@ -12,7 +14,18 @@ interface BookSection {
 
 interface CountrySection {
   country: string;
-  books: string[];
+  books: Book[];
+}
+
+const placeholderCover = `${import.meta.env.BASE_URL}placeholder.svg`;
+
+function coverPath(title: string, author?: string): string {
+  const s = `${title} ${author || ""}`.trim().toLowerCase();
+  const slug = s
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "")
+    .slice(0, 80);
+  return `${import.meta.env.BASE_URL}book-covers/${slug}.jpg`;
 }
 
 const Books = () => {
@@ -35,9 +48,9 @@ So I decided to arrange the noteworthy books by mood: whether you're looking to 
     {
       title: "Career / Growth",
       books: [
-        { title: "Unreasonable Hospitality" },
-        { title: "Storyworthy" },
-        { title: "Almanack of Naval Ravikant", author: "Eric Jorgenson" },
+        { title: "Unreasonable Hospitality", author: "Will Guidara" },
+        { title: "Storyworthy", author: "Matthew Dicks" },
+        { title: "The Almanack of Naval Ravikant", author: "Eric Jorgenson" },
         { title: "The Anthology of Balaji", author: "Eric Jorgenson" },
         { title: "Excellent Advice for Living", author: "Kevin Kelly" },
         { title: "I Regret Almost Everything", author: "Keith McNally" },
@@ -48,13 +61,13 @@ So I decided to arrange the noteworthy books by mood: whether you're looking to 
     {
       title: "American",
       books: [
-        { title: "The Martian" },
+        { title: "The Martian", author: "Andy Weir" },
         { title: "Project Hail Mary", author: "Andy Weir" },
-        { title: "A Gentleman in Moscow" },
+        { title: "A Gentleman in Moscow", author: "Amor Towles" },
         { title: "Rules of Civility", author: "Amor Towles" },
         { title: "East of Eden", author: "John Steinbeck" },
         { title: "Gone with the Wind", author: "Margaret Mitchell" },
-        { title: "The Last Picture Show" },
+        { title: "The Last Picture Show", author: "Larry McMurtry" },
         { title: "Lonesome Dove", author: "Larry McMurtry" },
         { title: "A Widow for One Year", author: "John Irving" },
         { title: "Hunger", author: "Roxane Gay" },
@@ -64,61 +77,110 @@ So I decided to arrange the noteworthy books by mood: whether you're looking to 
   ];
 
   const countries: CountrySection[] = [
-    { country: "Canada", books: ["Water for Elephants by Sarah Gruen"] },
-    { country: "Ireland", books: ["All by Claire Keegan", "A Long Winter by Colm Tóibín"] },
-    { country: "Burma", books: ["The Piano Tuner by Daniel Mason"] },
-    { country: "Sweden", books: ["A Man Called Ove", "The 100-Year-Old Man Who Climbed Out the Window"] },
-    { country: "China", books: ["Waiting by Ha Jin"] },
-    { country: "England", books: ["The End of the Affair by Graham Greene", "The Sense of an Ending by Julian Barnes"] },
-    { country: "Greece", books: ["Captain Corelli's Mandolin by Louis de Bernières"] },
+    { country: "Canada", books: [{ title: "Water for Elephants", author: "Sarah Gruen" }] },
+    {
+      country: "Ireland",
+      books: [
+        { title: "All", author: "Claire Keegan" },
+        { title: "A Long Winter", author: "Colm Tóibín" },
+      ],
+    },
+    { country: "Burma", books: [{ title: "The Piano Tuner", author: "Daniel Mason" }] },
+    {
+      country: "Sweden",
+      books: [
+        { title: "A Man Called Ove", author: "Fredrik Backman" },
+        { title: "The 100-Year-Old Man Who Climbed Out the Window and Disappeared", author: "Jonas Jonasson" },
+      ],
+    },
+    { country: "China", books: [{ title: "Waiting", author: "Ha Jin" }] },
+    {
+      country: "England",
+      books: [
+        { title: "The End of the Affair", author: "Graham Greene" },
+        { title: "The Sense of an Ending", author: "Julian Barnes" },
+      ],
+    },
+    { country: "Greece", books: [{ title: "Captain Corelli's Mandolin", author: "Louis de Bernières" }] },
     {
       country: "Russia",
       books: [
-        "Master & Margarita by Bulgakov",
-        "Anna Karenina by Tolstoy",
-        "Nabokov",
-        "The White Nights by Dostoyevsky",
-        "Eugene Onegin by Pushkin",
+        { title: "The Master and Margarita", author: "Mikhail Bulgakov" },
+        { title: "Anna Karenina", author: "Leo Tolstoy" },
+        { title: "Lolita", author: "Vladimir Nabokov" },
+        { title: "White Nights", author: "Fyodor Dostoevsky" },
+        { title: "Eugene Onegin", author: "Alexander Pushkin" },
       ],
     },
     {
       country: "Korea",
       books: [
-        "Pachinko by Min Jin Lee",
-        "Crying in H Mart by Michelle Zauner",
-        "Nothing to Envy by Barbara Demick",
+        { title: "Pachinko", author: "Min Jin Lee" },
+        { title: "Crying in H Mart", author: "Michelle Zauner" },
+        { title: "Nothing to Envy", author: "Barbara Demick" },
       ],
     },
-    { country: "Kazakhstan", books: ["A Day That Lasts 100 Years"] },
+    { country: "Kazakhstan", books: [{ title: "A Day That Lasts 100 Years" }] },
     {
       country: "France",
       books: [
-        "L'Étranger",
-        "Wind, Sand and Stars",
-        "The Count of Monte Cristo",
-        "Lie With Me",
-        "In the Absence of Men by Philippe Besson",
-        "Bonjour Tristesse by Françoise Sagan",
+        { title: "L'Étranger", author: "Albert Camus" },
+        { title: "Wind, Sand and Stars", author: "Antoine de Saint-Exupéry" },
+        { title: "The Count of Monte Cristo", author: "Alexandre Dumas" },
+        { title: "Lie With Me", author: "Philippe Besson" },
+        { title: "In the Absence of Men", author: "Philippe Besson" },
+        { title: "Bonjour Tristesse", author: "Françoise Sagan" },
       ],
     },
     {
       country: "Germany",
       books: [
-        "Arc de Triomphe by Remarque",
-        "Three Comrades by Remarque",
-        "The Reader by Bernhard Schlink",
+        { title: "Arc de Triomphe", author: "Erich Maria Remarque" },
+        { title: "Three Comrades", author: "Erich Maria Remarque" },
+        { title: "The Reader", author: "Bernhard Schlink" },
       ],
     },
-    { country: "Japan", books: ["If Cats Disappeared from the World by Genki Kawamura"] },
+    { country: "Japan", books: [{ title: "If Cats Disappeared from the World", author: "Genki Kawamura" }] },
     {
       country: "Italy",
       books: [
-        "Four Seasons in Rome by Anthony Doerr",
-        "Roman Stories by Jhumpa Lahiri",
+        { title: "Four Seasons in Rome", author: "Anthony Doerr" },
+        { title: "Roman Stories", author: "Jhumpa Lahiri" },
       ],
     },
-    { country: "Netherlands", books: ["Girl with a Pearl Earring by Tracy Chevalier"] },
+    { country: "Netherlands", books: [{ title: "Girl with a Pearl Earring", author: "Tracy Chevalier" }] },
   ];
+
+  const BookCard = ({ book }: { book: Book }) => {
+    const cover = book.cover || coverPath(book.title, book.author);
+    return (
+      <div className="flex gap-4 border-b border-border py-4 hover:border-foreground transition-colors duration-300">
+        <div className="flex-shrink-0 w-14">
+          <AspectRatio ratio={2 / 3}>
+            <img
+              src={cover}
+              alt={`Cover of ${book.title}`}
+              className="w-full h-full object-cover border border-border"
+              onError={(e) => {
+                (e.target as HTMLImageElement).src = placeholderCover;
+              }}
+            />
+          </AspectRatio>
+        </div>
+        <div className="flex items-center">
+          <p className="font-body text-sm text-foreground">
+            {book.title}
+            {book.author && (
+              <span className="text-muted-foreground">
+                {" "}
+                — {book.author}
+              </span>
+            )}
+          </p>
+        </div>
+      </div>
+    );
+  };
 
   return (
     <Layout>
@@ -155,22 +217,9 @@ So I decided to arrange the noteworthy books by mood: whether you're looking to 
                   <h2 className="font-display text-3xl md:text-4xl italic text-[#A24859] mb-10">
                     {section.title}
                   </h2>
-                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-4">
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-2">
                     {section.books.map((book, index) => (
-                      <div
-                        key={index}
-                        className="border-b border-border py-4 hover:border-foreground transition-colors duration-300"
-                      >
-                        <p className="font-body text-sm text-foreground">
-                          {book.title}
-                          {book.author && (
-                            <span className="text-muted-foreground">
-                              {" "}
-                              — {book.author}
-                            </span>
-                          )}
-                        </p>
-                      </div>
+                      <BookCard key={index} book={book} />
                     ))}
                   </div>
                 </div>
@@ -191,16 +240,11 @@ So I decided to arrange the noteworthy books by mood: whether you're looking to 
                     <h3 className="font-display text-lg italic text-foreground mb-4">
                       {country.country}
                     </h3>
-                    <ul className="space-y-2">
+                    <div className="space-y-2">
                       {country.books.map((book, index) => (
-                        <li
-                          key={index}
-                          className="font-body text-sm text-muted-foreground leading-relaxed"
-                        >
-                          {book}
-                        </li>
+                        <BookCard key={index} book={book} />
                       ))}
-                    </ul>
+                    </div>
                   </div>
                 ))}
               </div>
